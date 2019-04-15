@@ -1,2 +1,2 @@
-# orangescrum
-project management
+# project-manager
+project management with orangescrum
