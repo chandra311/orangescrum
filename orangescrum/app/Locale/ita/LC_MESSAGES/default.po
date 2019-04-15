@@ -1,0 +1,4898 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright 2016 Erre Elle Net <info@erre-elle.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-10-07 20:42+0530\n"
+"PO-Revision-Date: 2017-02-23 12:32+0530\n"
+"Last-Translator: \n"
+"Language-Team: sviluppo@erre-elle.net\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#: Controller/AppController.php:654 Controller/Component/FormatComponent.php:523;586
+msgid "Please specify a file name for download."
+msgstr "Si prega di specificare un nome di file per il download."
+
+#: Controller/AppController.php:658
+msgid "Oops! File not found.<br/> File may be deleted or make sure you specified correct file name."
+msgstr "Oops! File non trovato. File <br/> può essere cancellato o assicurarsi che si è specificato il nome corretto di file."
+
+#: Controller/AppController.php:682
+msgid "Oops! File cannot be download.<br/> You might not have access to download the file."
+msgstr "Oops! Il file non può essere scaricato. <br/> Si potrebbe non avere accesso per scaricare il file."
+
+#: Controller/AppController.php:845
+msgid "Development"
+msgstr "Sviluppo"
+
+#: Controller/AppController.php:853 View/Elements/ajax_case_menu.ctp:26
+msgid "Bug"
+msgstr "Bug"
+
+#: Controller/AppController.php:861 Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:57 Plugin/Invoice/View/Invoices/invoice.ctp:198 Plugin/MultiLanguage/View/MultiLanguage/settings.ctp:27 View/Elements/popup.ctp:762;847;893 View/Users/email_notifications.ctp:75 View/Users/email_reports.ctp:163 View/Users/json_activity.ctp:7 View/Users/login.ctp:185 View/Users/mycompany.ctp:88 View/Users/profile.ctp:116
+msgid "Update"
+msgstr "Aggiornamento"
+
+#: Controller/AppController.php:869
+msgid "Change Request"
+msgstr "Richiesta di modifica"
+
+#: Controller/AppController.php:877
+msgid "Idea"
+msgstr "Idea"
+
+#: Controller/AppController.php:885
+msgid "Enhancement"
+msgstr "Miglioramento"
+
+#: Controller/AppController.php:893
+msgid "Research n Do"
+msgstr "Ricerca e Esecuzione"
+
+#: Controller/AppController.php:901
+msgid "Maintenance"
+msgstr "Manutenzione"
+
+#: Controller/AppController.php:909
+msgid "Quality Assurance"
+msgstr "Garanzia di qualità"
+
+#: Controller/AppController.php:917
+msgid "Unit Testing"
+msgstr "Test Dispositivo"
+
+#: Controller/AppController.php:925
+msgid "Release"
+msgstr "Rilascio"
+
+#: Controller/AppController.php:933 Controller/EasycasesController.php:6863;6868
+msgid "Others"
+msgstr "Altro"
+
+#: Controller/AppController.php:984
+msgid "All Tasks"
+msgstr "Tutte le attività"
+
+#: Controller/AppController.php:984
+msgid "My Tasks"
+msgstr "I miei compiti"
+
+#: Controller/AppController.php:984 Controller/EasycasesController.php:2082 Model/Easycase.php:194;399 View/Easycase/ajax_duedate.ctp:17 View/Easycase/to_dos.ctp:43
+msgid "Overdue"
+msgstr "In ritardo"
+
+#: Controller/AppController.php:984 View/Easycase/dashboard.ctp:241
+msgid "Delegated"
+msgstr "Delegato"
+
+#: Controller/AppController.php:984
+msgid "High Priority"
+msgstr "Priorità alta"
+
+#: Controller/EasycasesController.php:409
+msgid "has been moved permanently"
+msgstr "è stato spostato in modo permanente"
+
+#: Controller/EasycasesController.php:422 Controller/Component/FormatComponent.php:533;544;597
+msgid "Oops! File not found."
+msgstr "Oops! File non trovato."
+
+#: Controller/EasycasesController.php:422 Controller/Component/FormatComponent.php:533;544;597
+msgid "File may be deleted or make sure you specified correct file name."
+msgstr "il file può essere cancellato assicurarsi che sia specificato il nome corretto del file."
+
+#: Controller/EasycasesController.php:507
+msgid "Commented"
+msgstr "Commentato"
+
+#: Controller/EasycasesController.php:507
+msgid "on the reply"
+msgstr "sulla risposta"
+
+#: Controller/EasycasesController.php:671
+msgid "Error in uploading file to S3 bucket"
+msgstr "Errore nel caricamento del file in S3 bucket"
+
+#: Controller/EasycasesController.php:927;2036;2243;2249;2251 Model/Easycase.php:129;157;162;344;369;374 Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:471 Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:36 View/Elements/case_details.ctp:445;451;460 View/Projects/ajax_edit_project.ctp:36
+msgid "me"
+msgstr "me"
+
+#: Controller/EasycasesController.php:1350;1352;1354;1356;1362;1375;1384;1393 Controller/Component/PostcaseComponent.php:267;273;277;282;286 Model/Easycase.php:806;808;810;812;821 Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:30;31 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:107;163 View/Archive/listall.ctp:50 View/Easycase/ajax_exportcsv.ctp:65 View/Easycase/dashboard.ctp:35;113;144
+#: View/Elements/case_details.ctp:110;404 View/Elements/case_reply.ctp:78 View/Elements/header_inner.ctp:440 View/Milestone/add_case.ctp:22 View/Milestone/remove_cases_from_milestone.ctp:18 View/Projects/importexport.ctp:92;150
+msgid "Status"
+msgstr "Stato"
+
+#: Controller/EasycasesController.php:1350 Model/Easycase.php:806
+msgid "NEW"
+msgstr "NUOVO"
+
+#: Controller/EasycasesController.php:1352;1375;1376 Controller/Component/PostcaseComponent.php:286;287 Model/Easycase.php:808;821;822
+msgid "STARTED"
+msgstr "INIZIATO"
+
+#: Controller/EasycasesController.php:1354;1384;1385 Controller/Component/PostcaseComponent.php:282;283 Model/Easycase.php:810;829;830
+msgid "RESOLVED"
+msgstr "RISOLTO"
+
+#: Controller/EasycasesController.php:1356;1393;1394 Controller/Component/PostcaseComponent.php:267;269 Model/Easycase.php:812;838
+msgid "CLOSED"
+msgstr "CHIUSO"
+
+#: Controller/EasycasesController.php:1376;1385;1394;1404;1414;1424;1434 Controller/Component/PostcaseComponent.php:269;283;287 Model/Easycase.php:529;531;533;535;822;830;838;847;856;865;874;883;892
+msgid "the Task"
+msgstr "l'obiettivo"
+
+#: Controller/EasycasesController.php:1404 Model/Easycase.php:847
+msgid "changed the type of"
+msgstr "cambiato il tipo di"
+
+#: Controller/EasycasesController.php:1414 Model/Easycase.php:856
+msgid "changed the due date of"
+msgstr "cambiato la data di scadenza"
+
+#: Controller/EasycasesController.php:1424 Model/Easycase.php:865
+msgid "changed the priority of"
+msgstr "cambiato la priorità"
+
+#: Controller/EasycasesController.php:1434 Model/Easycase.php:874
+msgid "changed the assigned to of"
+msgstr "Cambiato l'assegnazione a di"
+
+#: Controller/EasycasesController.php:1454;6190 Plugin/Timelog/Controller/LogTimesController.php:27
+msgid "Dependant tasks are not closed."
+msgstr "attività non autonome non sono chiuse."
+
+#: Controller/EasycasesController.php:2015 Model/Easycase.php:566 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:152 View/Easycase/ajax_exportcsv.ctp:99 View/Elements/case_details.ctp:100;480 View/Elements/popup.ctp:1282
+msgid "High"
+msgstr "alto"
+
+#: Controller/EasycasesController.php:2018 Model/Easycase.php:568 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:151 View/Easycase/ajax_exportcsv.ctp:98 View/Elements/case_details.ctp:99;477 View/Elements/popup.ctp:1280
+msgid "Medium"
+msgstr "medio"
+
+#: Controller/EasycasesController.php:2021 Model/Easycase.php:570 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:150 View/Easycase/ajax_exportcsv.ctp:97 View/Elements/case_details.ctp:98;474 View/Elements/popup.ctp:1278
+msgid "Low"
+msgstr "Basso"
+
+#: Controller/EasycasesController.php:2069;2087
+msgid "Due"
+msgstr "Dovuto"
+
+#: Controller/EasycasesController.php:2071;2089
+msgid "Due On"
+msgstr "Dovuto per"
+
+#: Controller/EasycasesController.php:2245
+msgid "other"
+msgstr "altro"
+
+#: Controller/EasycasesController.php:3702;3716 View/Report/hours_gridview.ctp:21 View/Report/tlg_hours_gridview.ctp:21
+msgid "Hours Spent"
+msgstr "ore passate"
+
+#: Controller/EasycasesController.php:3704;3707;3718;3735
+msgid "Using"
+msgstr "utilizzando"
+
+#: Controller/EasycasesController.php:3704;3707;3718;3735
+msgid "Mb of storage"
+msgstr "MB di memoria"
+
+#: Controller/EasycasesController.php:3753 Plugin/TaskStatusGroup/View/Workflow/workflow.ctp:155 View/Projects/manage.ctp:139 View/Users/manage.ctp:216
+msgid "Last Activity"
+msgstr "Ultima attività"
+
+#: Controller/EasycasesController.php:4503
+msgid "projectName,milestoneName,tasks#,title,status,type,created by,assigned to,created at,lastUpdated,milestoneEndDate\n"
+msgstr "projectName, milestoneName, compiti #, titolo, status, tipo, creato da, assegnata a, creato, lastUpdated, milestoneEndDate \n"
+
+#: Controller/EasycasesController.php:4686
+msgid "Tasks#,Title,Description,Status,Type,Milestone,Assigned To,Due Date,Created By,Date Created,Last Updated\n"
+msgstr "Compiti #, Titolo, Descrizione, Stato, Tipo, Milestone, Assegnato a, Due Date, creata da, data di creazione, ultimo aggiornamento \n"
+
+#: Controller/EasycasesController.php:4770
+msgid "projectName,tasks#,title,status,type,created by,assigned to,created at,lastUpdated\n"
+msgstr "projectName, compiti #, titolo, status, tipo, creato da, assegnata a, creato, lastUpdated \n"
+
+#: Controller/EasycasesController.php:4850
+msgid "Project Name,Milestone Name,Task#,Title,Status,Type,Assigned To"
+msgstr "Nome del progetto, Milestone Nome, Task #, Titolo, Stato, Tipo, Assegnato a"
+
+#: Controller/EasycasesController.php:5060;5063 Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:65;140 View/Archive/milestone_list.ctp:63 View/Templates/tasks.ctp:61
+msgid "Created By"
+msgstr "Creato da"
+
+#: Controller/EasycasesController.php:5586
+msgid "No matched record found with this id"
+msgstr "Nessun record abbinato trovato con questo id"
+
+#: Controller/EasycasesController.php:5592
+msgid "Invalid Case id"
+msgstr "Casella id non valida"
+
+#: Controller/EasycasesController.php:6789;6790;6794;6802 View/Easycase/dashboard.ctp:282;308 View/Elements/case_details.ctp:492 View/Elements/case_reply.ctp:85
+msgid "Completed"
+msgstr "Completato"
+
+#: Controller/EasycasesController.php:6790;6854
+msgid "of"
+msgstr "di"
+
+#: Controller/EasycasesController.php:6798;6803
+msgid "New & In Progress"
+msgstr "Nuovo & In Progresso"
+
+#: Controller/EasycasesController.php:6926;6927 Controller/ReportsController.php:1473 Controller/UsersController.php:1968 Controller/Component/FormatComponent.php:739 Model/Easycase.php:497 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:115 View/Easycase/ajax_exportcsv.ctp:70 View/Elements/ajax_case_status.ctp:118 View/Elements/case_details.ctp:409 View/Elements/header_inner.ctp:182
+#: View/Elements/popup.ctp:991 View/Helper/FormatHelper.php:93;307 View/Users/json_activity.ctp:2
+msgid "New"
+msgstr "Nuovo"
+
+#: Controller/EasycasesController.php:6926;6927 Controller/ReportsController.php:1473 Controller/UsersController.php:1968 Controller/Component/FormatComponent.php:741 Controller/Component/PostcaseComponent.php:277 Model/Easycase.php:499 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:121 View/Easycase/ajax_exportcsv.ctp:71 View/Elements/ajax_case_status.ctp:122 View/Elements/case_details.ctp:410;414;418;421
+#: View/Helper/FormatHelper.php:95;100;309
+msgid "In Progress"
+msgstr "In corso"
+
+#: Controller/EasycasesController.php:6926;6927 Controller/ReportsController.php:1473 Controller/UsersController.php:1968 Controller/Component/FormatComponent.php:743 Model/Easycase.php:501;529 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:127 View/Easycase/ajax_exportcsv.ctp:72 View/Elements/ajax_case_menu.ctp:30 View/Elements/ajax_case_status.ctp:113 View/Elements/case_details.ctp:854
+#: View/Helper/FormatHelper.php:98;311 View/Report/bug_linechart.ctp:88 View/Users/json_activity.ctp:4
+msgid "Closed"
+msgstr "Chiuso"
+
+#: Controller/EasycasesController.php:6926;6927 Controller/ReportsController.php:1473;1484 Controller/UsersController.php:1968 Controller/Component/FormatComponent.php:747 Model/Easycase.php:503;533 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:133 View/Easycase/ajax_exportcsv.ctp:73 View/Elements/ajax_case_status.ctp:130 View/Elements/case_details.ctp:851 View/Elements/manage_milestone.ctp:87
+#: View/Helper/FormatHelper.php:102;315 View/Report/hours_gridview.ctp:17 View/Report/tlg_hours_gridview.ctp:17 View/Users/json_activity.ctp:6
+msgid "Resolved"
+msgstr "risolto"
+
+#: Controller/EasycasesController.php:7554
+msgid "Title, Description, Status, Priority, Task Type, Assigned To, Created By, Last Updated By, Created On, Estimated Hours, Hours Spent"
+msgstr "Titolo, Descrizione, Stato, Priorità, Task Type, Assegnato a, creata da, ultimo aggiornamento da, creato su, ore stimate, ore passate"
+
+#: Controller/EasycasesController.php:7668
+msgid "Opps! Error occured in creation of zip file."
+msgstr "Opps! Si è verificato un errore nella creazione del file zip."
+
+#: Controller/EasycasesController.php:7671
+msgid "Opps! Error occured in creating the task csv file."
+msgstr "Opps! Errore nella creazione del file CSV."
+
+#: Controller/EasycasesController.php:7744
+msgid "Milestone successfully converted to task."
+msgstr "Milestone convertito con successo in un task."
+
+#: Controller/EasycasesController.php:7781
+msgid "Task successfully posted."
+msgstr "Task pubblicato con successo."
+
+#: Controller/EasycasesController.php:7787
+msgid "Sorry! invalid input. Please try again."
+msgstr "Scusate! inserimento non valido. Riprova."
+
+#: Controller/InstallController.php:37
+msgid "It seems you have not copied the"
+msgstr "Sembra che non abbiate copiato il"
+
+#: Controller/InstallController.php:37
+msgid "file for"
+msgstr "file per"
+
+#: Controller/InstallController.php:37
+msgid "addon to app/webroot folder"
+msgstr "componente aggiuntivo nella cartella app / webroot"
+
+#: Controller/InstallController.php:69
+msgid "file is extracted. Please click on next."
+msgstr "il file è stato estratto. Si prega di fare clic su Avanti."
+
+#: Controller/InstallController.php:72
+msgid "Can not extract the zip file"
+msgstr "Non è possibile estrarre il file zip"
+
+#: Controller/InstallController.php:77
+msgid "Invalid addon name"
+msgstr "Nome componente aggiuntiva non valido"
+
+#: Controller/InstallController.php:90;103
+msgid "Databse configuration is completed. Please click on next."
+msgstr "La configurazione del Databse è completata. Si prega di fare clic su Avanti."
+
+#: Controller/InstallController.php:107
+msgid "No content in the sql file."
+msgstr "Nessun contenuto nel file sql."
+
+#: Controller/InstallController.php:111
+msgid "No sql file is present in the zip file."
+msgstr "Non è presente nessun file sql nel file zip."
+
+#: Controller/InstallController.php:145
+msgid "Please click on verify to check it is installed properly or not."
+msgstr "Cliccare su verifica per controllare che sia installato correttamente o meno."
+
+#: Controller/InstallController.php:148
+msgid "Can not copy the folder."
+msgstr "Non è possibile copiare la cartella."
+
+#: Controller/InstallController.php:152
+msgid "No add-on Folder is present in the zip file."
+msgstr "Nessuna cartella add-on è presente nel file zip."
+
+#: Controller/InstallController.php:166;170
+msgid "Congratulations! You have successfully installed"
+msgstr "Complimenti! Hai installato con successo"
+
+#: Controller/InstallController.php:166;170
+msgid "add-on"
+msgstr "componente aggiuntivo"
+
+#: Controller/InstallController.php:166
+msgid "Now you have to install 'wkhtmltopdf' in your server and need to update that path in 'constants.php' file inside 'app/Config' folder in order to generate pdf of invoices. Please click on finish."
+msgstr "Ora è necessario installare 'wkhtmltopdf' nel server e necessario  aggiornare tale percorso nel file 'constants.php' all'interno della cartella 'app / config' al fine di generare il pdf delle fatture. Si prega di fare clic su Fine."
+
+#: Controller/InstallController.php:168
+msgid "Congratulations! You have successfully installed the chat add-on. Now you have to install 'Node.js' in your server and need to update 'NODEJS_HOST' path with 3002 port(eg:http://yourdomain:3002) in 'constants.php' file inside 'app/Config' folder in order to communicate with Node Host. Please refer 'readme.txt' file for install Node.js. Please click on finish."
+msgstr "Complimenti! È stato installato con successo la chat add-on. Ora è necessario installare 'Node.js' nel server e necessario aggiornare  'NODEJS_HOST' con la porta 3002  (ad esempio: http: // yourdomain: 3002) nel file 'constants.php' all'interno della cartella 'app / config'  per comunicare con il nodo Host. Si prega di fare riferimento file 'readme.txt' per installare Node.js. Si prega di fare clic su Fine."
+
+#: Controller/InstallController.php:170
+msgid "Please click on finish."
+msgstr "Si prega di fare clic su Fine."
+
+#: Controller/InstallController.php:174
+msgid "Oops! The"
+msgstr "Oops! Il"
+
+#: Controller/InstallController.php:174
+msgid "add-on is not installed properly."
+msgstr "add-on non è installato correttamente."
+
+#: Controller/MilestonesController.php:91 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:49 View/Easycase/ajax_exportcsv.ctp:21;134 View/Elements/breadcrumb.ctp:18 View/Elements/case_details.ctp:174 View/Elements/case_project.ctp:249 View/Elements/case_quick.ctp:139 View/Elements/header_inner.ctp:204 View/Milestone/move_task_milestone.ctp:14
+msgid "Milestone"
+msgstr "Milestone"
+
+#: Controller/MilestonesController.php:91
+msgid "has been deleted"
+msgstr "è stato cancellato"
+
+#: Controller/MilestonesController.php:95;100
+msgid "Oops! Error occured in deletion of milestone."
+msgstr "Oops! Errore durante la cancellazione della milestone."
+
+#: Controller/MilestonesController.php:226
+msgid "Start date cannot exceed End date"
+msgstr "La data di inizio non può superare la data di fine"
+
+#: Controller/MilestonesController.php:245
+msgid "Opps!, Milestone Title already exists.."
+msgstr "Opps !,Il titolo della  Milestone  esiste già .."
+
+#: Controller/MilestonesController.php:255
+msgid "Milestone added successfully."
+msgstr "Milestone aggiunta con successo."
+
+#: Controller/MilestonesController.php:261
+msgid "Sorry!, We are not able to post this Milestone. Try again."
+msgstr "Spiacente !, Non siamo in grado di pubblicare questa Milestone. Riprova."
+
+#: Controller/MilestonesController.php:294
+msgid "Milestone has been restored."
+msgstr "La Milestone è stata recuperata."
+
+#: Controller/MilestonesController.php:298
+msgid "Oops! Error occured in restoration of milestone"
+msgstr "Oops! Errore nel recupero della Milestone"
+
+#: Controller/MilestonesController.php:311
+msgid "Milestone has been completed."
+msgstr "La Milestone è stata completata."
+
+#: Controller/MilestonesController.php:314
+msgid "Oops! Error occured in completion of milestone"
+msgstr "Oops!Si è verificato un errore nel completamento della Milestone"
+
+#: Controller/MilestonesController.php:431 Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:61 View/Easycase/dashboard.ctp:57 View/Elements/case_details.ctp:237 View/Projects/ajax_edit_project.ctp:45
+msgid "Created by"
+msgstr "Creato da"
+
+#: Controller/MilestonesController.php:431 Model/User.php:170;188;203;218 View/Archive/case_list.ctp:28 View/Elements/case_files.ctp:83 View/Elements/case_project.ctp:368 View/Elements/kanban_task.ctp:177 View/Projects/manage.ctp:128
+msgid "on"
+msgstr "sopra"
+
+#: Controller/ProjectsController.php:151;447
+msgid "Project name"
+msgstr "Nome del progetto"
+
+#: Controller/ProjectsController.php:151;157;447;459
+msgid "already exists"
+msgstr "esiste già"
+
+#: Controller/ProjectsController.php:157;459
+msgid "Project short name"
+msgstr "Progetto nome breve"
+
+#: Controller/ProjectsController.php:163
+msgid "saved successfully"
+msgstr "Salvato con successo"
+
+#: Controller/ProjectsController.php:240;770
+msgid "activated successfully"
+msgstr "attivato con successo"
+
+#: Controller/ProjectsController.php:250;784
+msgid "deleted successfully"
+msgstr "cancellato con successo"
+
+#: Controller/ProjectsController.php:255;793
+msgid "deactivated successfully"
+msgstr "disattivato con successo"
+
+#: Controller/ProjectsController.php:259;797
+msgid "Invalid or Wrong action!"
+msgstr "Azione non valida o sbagliata!"
+
+#: Controller/ProjectsController.php:569
+msgid "created successfully"
+msgstr "creato con successo"
+
+#: Controller/ProjectsController.php:612
+msgid "Error creating project"
+msgstr "Errore nella creazione del progetto"
+
+#: Controller/ProjectsController.php:702
+msgid "User(s) successfully assigned to"
+msgstr "Utenti assegnati con successo"
+
+#: Controller/ProjectsController.php:937;951
+msgid "Group update alert has been saved successfully."
+msgstr "l'avviso di aggiornamento del gruppo è stato salvato con successo."
+
+#: Controller/ProjectsController.php:940;954;958
+msgid "Failed to save of Group update alert."
+msgstr "Impossibile salvare l'allerta aggiornamento del gruppo."
+
+#: Controller/ProjectsController.php:1126 Plugin/ProjectTemplate/Controller/ProjectTemplatesController.php:330
+msgid "Template tasks added successfully"
+msgstr "modelli dei task aggiunti con successo"
+
+#: Controller/ProjectsController.php:1140 Plugin/ProjectTemplate/Controller/ProjectTemplatesController.php:98
+msgid "Template Deleted successfully"
+msgstr "Modello eliminato correttamente"
+
+#: Controller/ProjectsController.php:1147 Controller/UsersController.php:2448 Plugin/ProjectTemplate/Controller/ProjectTemplatesController.php:105
+msgid "Template activated successfully"
+msgstr "Modello attivato con successo"
+
+#: Controller/ProjectsController.php:1150 Controller/UsersController.php:2451 Plugin/ProjectTemplate/Controller/ProjectTemplatesController.php:108
+msgid "Template can't be activated.Please try again."
+msgstr "il modello non può essere attivato.riprovare."
+
+#: Controller/ProjectsController.php:1158 Controller/UsersController.php:2460 Plugin/ProjectTemplate/Controller/ProjectTemplatesController.php:116
+msgid "Template deactivated successfully"
+msgstr "Modello disattivato con successo"
+
+#: Controller/ProjectsController.php:1161 Controller/UsersController.php:2463 Plugin/ProjectTemplate/Controller/ProjectTemplatesController.php:119
+msgid "Template can't be deactivated.Please try again."
+msgstr "Il modello non può essere disattivato.Riprovare."
+
+#: Controller/ProjectsController.php:1637
+msgid "Please split the file and upload again. Your file contain more than 1000 rows"
+msgstr "Si prega di dividere il file e caricare di nuovo. Il file contiene più di 1000 righe"
+
+#: Controller/ProjectsController.php:1643
+msgid "Please upload a file with size less then 2MB"
+msgstr "Si prega di caricare un file con dimensione inferiore a 2 MB"
+
+#: Controller/ProjectsController.php:1659
+msgid "Invalid CSV file"
+msgstr "file CSV non valido"
+
+#: Controller/ProjectsController.php:1659 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:70 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:252 View/Elements/case_details.ctp:273;276 View/Elements/case_files.ctp:79 View/Elements/case_reply.ctp:143;146
+msgid "Download"
+msgstr "Download"
+
+#: Controller/ProjectsController.php:1659
+msgid "and check with our sample file"
+msgstr "e verificare con il nostro file di esempio"
+
+#: Controller/ProjectsController.php:1671
+msgid "Require atleast Task Title column to import the Tasks"
+msgstr "Richiede almeno la colonna Task Title per importare le Tasks"
+
+#: Controller/ProjectsController.php:1750;1754
+msgid "Please import a valid CSV file"
+msgstr "Si prega di importare un file CSV valido"
+
+#: Controller/ProjectsController.php:1940
+msgid "Already a file with same name and same size of"
+msgstr "Già un file con lo stesso nome e la stessa dimensione di"
+
+#: Controller/ProjectsController.php:1940;1942
+msgid "bytes exists"
+msgstr "byte esistente"
+
+#: Controller/ProjectsController.php:1940
+msgid "Would you like to replace the exsiting file"
+msgstr "Volete sostituire il file esistente"
+
+#: Controller/ProjectsController.php:1942
+msgid "Already file with same name and size of"
+msgstr "Già file con lo stesso nome e  dimensione"
+
+#: Controller/ProjectsController.php:1942
+msgid "Would you like to replace the existing file"
+msgstr "Volete sostituire il file esistente"
+
+#: Controller/ProjectsController.php:2069
+msgid "Oops! Error occured in deletion of project"
+msgstr "Oops! Errore durante la cancellazione del progetto"
+
+#: Controller/ProjectsController.php:2215;2235
+msgid "Task type"
+msgstr "tipo di Task"
+
+#: Controller/ProjectsController.php:2215
+msgid "updated successfully."
+msgstr "aggiornato con successo."
+
+#: Controller/ProjectsController.php:2235
+msgid "added successfully."
+msgstr "aggiunto con successo."
+
+#: Controller/ProjectsController.php:2238
+msgid "Error in addition of task type."
+msgstr "Errore nell' aggiunta del tipo di Task."
+
+#: Controller/ProjectsController.php:2263
+msgid "Task type saved successfully."
+msgstr "Tipo di attività salvata."
+
+#: Controller/ProjectsController.php:2265
+msgid "Error in saving of task type."
+msgstr "Errore nel salvataggio del tipo di task."
+
+#: Controller/ReportsController.php:467;580;802;961;1092;1199;1219;1269
+msgid "No data for this date range & project"
+msgstr "Non ci sono dati per questo intervallo di date e di progetto"
+
+#: Controller/ReportsController.php:1481
+msgid "Opened"
+msgstr "Aperto"
+
+#: Controller/UsersController.php:111
+msgid "Company photo removed successfully"
+msgstr "Foto aziendale eliminata con successo"
+
+#: Controller/UsersController.php:121
+msgid "Company logo should be an image file"
+msgstr "logo aziendale dovrebbe essere un file immagine"
+
+#: Controller/UsersController.php:124
+msgid "Company logo size cannot excceed 1mb"
+msgstr "Dimensioni del logo dell'azienda non può superare 1MB"
+
+#: Controller/UsersController.php:129;1710;3198
+msgid "Name cannot be left blank"
+msgstr "Il nome non può essere lasciato vuoto"
+
+#: Controller/UsersController.php:140;3206
+msgid "Company updated successfully"
+msgstr "Azienda aggiornata con successo"
+
+#: Controller/UsersController.php:380
+msgid "Notification settings saved successfully"
+msgstr "Impostazioni di notifica salvate con successo"
+
+#: Controller/UsersController.php:529
+msgid "user deleted successfully"
+msgstr "utente cancellato con successo"
+
+#: Controller/UsersController.php:535
+msgid "Sorry! User cannot be enabled. User Limit Exceeded!"
+msgstr "Scusate! L'utente non può essere attivato. Limite di utenze  superato!"
+
+#: Controller/UsersController.php:557
+msgid "User enabled successfully"
+msgstr "Utente abilitato con successo"
+
+#: Controller/UsersController.php:571
+msgid "User disabled successfully"
+msgstr "Utente disabilitato con successo"
+
+#: Controller/UsersController.php:579
+msgid "Granted admin privilege"
+msgstr "concesso privilegio amministratore"
+
+#: Controller/UsersController.php:591
+msgid "Granted client privilege"
+msgstr "privilegio cliente concesso"
+
+#: Controller/UsersController.php:606
+msgid "Revoked client privilege"
+msgstr "privilegio client  revocato"
+
+#: Controller/UsersController.php:619
+msgid "Revoked admin privilege"
+msgstr "privilegio amministratore revocato"
+
+#: Controller/UsersController.php:644
+msgid "Invited you to join"
+msgstr "ti ha invitato a partecipare"
+
+#: Controller/UsersController.php:644;1071;1217;2930;3328
+msgid "on Orangescrum"
+msgstr "su Orangescrum"
+
+#: Controller/UsersController.php:647
+msgid "Invited you to join on Orangescrum"
+msgstr "ti ha invitato ad unirsi a Orangescrum"
+
+#: Controller/UsersController.php:666
+msgid "Invitation resent to"
+msgstr "Invito a risentirsi"
+
+#: Controller/UsersController.php:842
+msgid "Password of"
+msgstr "password di"
+
+#: Controller/UsersController.php:842
+msgid "reset successfully"
+msgstr "ripristinato con successo"
+
+#: Controller/UsersController.php:863
+msgid "Forgot Password Request"
+msgstr "Richiesta di Password dimenticata"
+
+#: Controller/UsersController.php:968
+msgid "Sorry! you have exceeded the user limit"
+msgstr "Scusate! è stato superato il limite di utenti"
+
+#: Controller/UsersController.php:970
+msgid "Sorry! This account exceeded the user limit."
+msgstr "Scusate! Questo account ha superato il limite di utenti."
+
+#: Controller/UsersController.php:1071;1217;2930
+msgid "invited you to join"
+msgstr "ti ha invitato a partecipare"
+
+#: Controller/UsersController.php:1074;1220
+msgid "invited you to join Orangescrum"
+msgstr "ti ha invitato a unirti a Orangescrum"
+
+#: Controller/UsersController.php:1109
+msgid "Invitation sent to Successfully"
+msgstr "Invito inviato con successo"
+
+#: Controller/UsersController.php:1126;1265
+msgid "Invitation Failed. Please try again!"
+msgstr "Invito non riuscito. Riprova!"
+
+#: Controller/UsersController.php:1242
+msgid "Invitation sent to"
+msgstr "Invito inviato a"
+
+#: Controller/UsersController.php:1560
+msgid "Email or Password is invalid!"
+msgstr "E-mail o password non è valida!"
+
+#: Controller/UsersController.php:1575
+msgid "email already exists"
+msgstr "Email già esistente"
+
+#: Controller/UsersController.php:1579
+msgid "Now you can login using"
+msgstr "Ora puoi effettuare il login usando"
+
+#: Controller/UsersController.php:1648
+msgid "Profile photo removed successfully"
+msgstr "Foto di profilo rimossa con successo"
+
+#: Controller/UsersController.php:1662
+msgid "Email cannot be left blank"
+msgstr "E-mail non può essere lasciato vuoto"
+
+#: Controller/UsersController.php:1677
+msgid "Opps! Email address already exists."
+msgstr "Opps! L'indirizzo email è già esistente."
+
+#: Controller/UsersController.php:1702
+msgid "Opps! Invalid file format! The formats supported are gif, jpg, jpeg & png."
+msgstr "Opps! Formato di file non valido! I formati supportati sono gif, jpg, jpeg e png."
+
+#: Controller/UsersController.php:1705
+msgid "Profile photo size cannot excceed 1mb"
+msgstr "Il formato della foto Profilo non può superare 1MB"
+
+#: Controller/UsersController.php:1737
+msgid "Profile updated successfully.<br />A confirmation link has been sent to"
+msgstr "Profilo aggiornato con successo. <br /> Un link di conferma è stato inviato"
+
+#: Controller/UsersController.php:1739
+msgid "Profile updated successfully"
+msgstr "Profilo aggiornato con successo"
+
+#: Controller/UsersController.php:1777
+msgid "Orangescrum Login Email ID Confirmation"
+msgstr "Orangescrum Login Email ID di conferma"
+
+#: Controller/UsersController.php:1798
+msgid "Old password cannot be left blank!"
+msgstr "il campo della vecchia password non può essere lasciato vuoto!"
+
+#: Controller/UsersController.php:1805
+msgid "Please enter correct old password."
+msgstr "Si prega di inserire correttamente la vecchia password."
+
+#: Controller/UsersController.php:1809
+msgid "New password cannot be left blank!"
+msgstr "Il campo della nuova password non può essere lasciato vuoto!"
+
+#: Controller/UsersController.php:1813
+msgid "Re-type password cannot be left blank!"
+msgstr "Re-type password non può essere lasciato vuoto!"
+
+#: Controller/UsersController.php:1817
+msgid "Re-type password do not match!"
+msgstr "Re-type password non corrispondono!"
+
+#: Controller/UsersController.php:1829
+msgid "Password changed successfully"
+msgstr "password cambiata con successo"
+
+#: Controller/UsersController.php:2414 View/Elements/new_project.ctp:201
+msgid "Template updated successfully"
+msgstr "Modello aggiornato con successo"
+
+#: Controller/UsersController.php:2417
+msgid "Template can't be updated"
+msgstr "Il modello non può essere aggiornato"
+
+#: Controller/UsersController.php:2422
+msgid "Template added successfully"
+msgstr "Modello aggiunto correttamente"
+
+#: Controller/UsersController.php:2425
+msgid "Template can't be added"
+msgstr "Il modello non può essere aggiunto"
+
+#: Controller/UsersController.php:2440
+msgid "Deleted successfully"
+msgstr "cancellato con successo"
+
+#: Controller/UsersController.php:3130
+msgid "Notifications changed successfully"
+msgstr "Notifiche cambiate con successo"
+
+#: Controller/UsersController.php:3166
+msgid "Reports changed successfully"
+msgstr "Report cambiati con successo"
+
+#: Controller/UsersController.php:3184
+msgid "Company logo removed successfully"
+msgstr "Logo aziendale rimosso con successo"
+
+#: Controller/UsersController.php:3326
+msgid "You have been added to multiple projects on Orangescrum"
+msgstr "Sei stato aggiunto a più progetti su Orangescrum"
+
+#: Controller/UsersController.php:3328
+msgid "You have been added to"
+msgstr "Sei stato aggiunto alla"
+
+#: Controller/Component/FormatComponent.php:745 Model/Easycase.php:531 View/Helper/FormatHelper.php:313
+msgid "Started"
+msgstr "Iniziato"
+
+#: Controller/Component/FormatComponent.php:749 View/Archive/listall.ctp:19 View/Easycase/ajax_exportcsv.ctp:74 View/Elements/ajax_case_menu.ctp:40 View/Elements/breadcrumb.ctp:15 View/Elements/header_inner.ctp:71 View/Helper/FormatHelper.php:317
+msgid "Files"
+msgstr "File"
+
+#: Controller/Component/FormatComponent.php:751 View/Easycase/ajax_exportcsv.ctp:75 View/Helper/FormatHelper.php:319
+msgid "Updates"
+msgstr "aggiornamenti"
+
+#: Controller/Component/FormatComponent.php:1501
+msgid "first day of january"
+msgstr "primo giorno di gennaio"
+
+#: Controller/Component/FormatComponent.php:1502
+msgid "last day of march"
+msgstr "ultimo giorno del mese di marzo"
+
+#: Controller/Component/FormatComponent.php:1504
+msgid "first day of april"
+msgstr "primo giorno di aprile"
+
+#: Controller/Component/FormatComponent.php:1505
+msgid "last day of june"
+msgstr "ultimo giorno del mese di giugno"
+
+#: Controller/Component/FormatComponent.php:1507
+msgid "first day of july"
+msgstr "primo giorno di luglio"
+
+#: Controller/Component/FormatComponent.php:1508
+msgid "last day of september"
+msgstr "ultimo giorno del mese di settembre"
+
+#: Controller/Component/FormatComponent.php:1510
+msgid "first day of october"
+msgstr "primo ottobre"
+
+#: Controller/Component/FormatComponent.php:1511
+msgid "last day of december"
+msgstr "ultimo giorno del mese di dicembre"
+
+#: Controller/Component/PostcaseComponent.php:231
+msgid "posted a new Task"
+msgstr "pubblicato un nuovo Task"
+
+#: Controller/Component/PostcaseComponent.php:273
+msgid "REPLIED"
+msgstr "RISPOSTO"
+
+#: Controller/Component/PostcaseComponent.php:274;278
+msgid "responded on the Task"
+msgstr "ha risposto il Task"
+
+#: Controller/Component/PostcaseComponent.php:461
+msgid "This task is assigned to"
+msgstr "Questo compito viene assegnato a"
+
+#: Controller/Component/PostcaseComponent.php:468
+msgid "Due date"
+msgstr "Scadenza"
+
+#: Controller/Component/PostcaseComponent.php:931;937 View/Easycase/ajax_priority.ctp:14
+msgid "LOW"
+msgstr "BASSO"
+
+#: Controller/Component/PostcaseComponent.php:933 View/Easycase/ajax_priority.ctp:14
+msgid "HIGH"
+msgstr "ALTO"
+
+#: Controller/Component/PostcaseComponent.php:935 View/Easycase/ajax_priority.ctp:14
+msgid "MEDIUM"
+msgstr "MEDIUM"
+
+#: Controller/Component/PostcaseComponent.php:939 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:136 View/Easycase/ajax_exportcsv.ctp:92 View/Easycase/dashboard.ctp:50;116;119 View/Elements/case_details.ctp:91;470 View/Elements/popup.ctp:1273
+msgid "Priority"
+msgstr "Priorità"
+
+#: Controller/Component/PostcaseComponent.php:946
+msgid "You have"
+msgstr "Hai"
+
+#: Controller/Component/PostcaseComponent.php:948
+msgid " has"
+msgstr "ha"
+
+#: Controller/Component/PostcaseComponent.php:986 Plugin/API/View/Apis/ajax_generate_key.ctp:8 Plugin/API/View/Apis/settings.ctp:25 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:34 Plugin/ProjectTemplate/View/ProjectTemplates/add_to_project.ctp:9 Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:9 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:140;161 View/Archive/listall.ctp:53;88
+#: View/Easycase/ajax_exportcsv.ctp:6 View/Easycase/ajax_move_task_to_project.ctp:5 View/Elements/ajax_milestonelist.ctp:186 View/Elements/breadcrumb.ctp:134;171;189;237 View/Elements/case_details.ctp:194 View/Elements/header_inner.ctp:192 View/Elements/popup.ctp:1109 View/Elements/weekly_usage.ctp:157 View/Milestone/ajax_new_milestone.ctp:5 View/Projects/ajax_daily_update.ctp:11
+#: View/Projects/groupupdatealerts.ctp:10 View/Projects/importexport.ctp:21
+msgid "Project"
+msgstr "Progetto"
+
+#: Controller/Component/PostcaseComponent.php:994 Plugin/Invoice/View/Invoices/ajax_time_list.ctp:34;35 Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:17 Plugin/Timelog/View/LogTimes/time_log.ctp:222;223 View/Archive/listall.ctp:41;73 View/Easycase/dashboard.ctp:134 View/Elements/breadcrumb.ctp:138 View/Elements/case_files.ctp:15 View/Elements/case_project.ctp:37;38 View/Elements/header_inner.ctp:202
+#: View/Elements/popup.ctp:1100 View/Milestone/add_case.ctp:18 View/Milestone/remove_cases_from_milestone.ctp:14 View/Templates/tasks.ctp:19
+msgid "Task"
+msgstr "Compito"
+
+#: Controller/Component/PostcaseComponent.php:997 Plugin/Invoice/View/Invoices/ajax_time_list.ctp:40;41 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:164 View/Elements/case_details.ctp:64 View/Elements/popup.ctp:1344 View/Projects/importexport.ctp:93;151
+msgid "Type"
+msgstr "Digitare"
+
+#: Controller/Component/PostcaseComponent.php:1029
+msgid "To read the original message, view comments, reply & download attachment"
+msgstr "Per leggere il messaggio originale, visualizzare i commenti, rispondere e scaricare allegati"
+
+#: Controller/Component/PostcaseComponent.php:1032
+msgid "This email notification is sent by"
+msgstr "Questa notifica e-mail viene inviata da"
+
+#: Controller/Component/PostcaseComponent.php:1042
+msgid "You are receiving this email notification because you have subscribed to Orangescrum, to unsubscribe, please email with subject 'Unsubscribe' to"
+msgstr "Hai ricevuto questa notifica e-mail perché si è abbonati al Orangescrum, per annullare l'iscrizione, inviare un'e-mail con oggetto 'Cancellati' a"
+
+#: Controller/Component/PostcaseComponent.php:1208
+msgid "Daily Catch-Up Alert"
+msgstr "Catch-up giornaliero Alert"
+
+#: Controller/Component/PostcaseComponent.php:1218
+msgid "This is a reminder to post your today's updates to Orangescrum. Just reply to this email with the updates, it will be added to the project."
+msgstr "Questo è un promemoria per inviare il vostro  aggiornamento di oggi  per Orangescrum. Basta rispondere a questa e-mail con gli aggiornamenti, verrà aggiunto al progetto."
+
+#: Controller/Component/PostcaseComponent.php:1219 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:202
+msgid "NOTE"
+msgstr "NOTA"
+
+#: Controller/Component/PostcaseComponent.php:1219
+msgid "DO NOT change the SUBJECT while replying."
+msgstr "NON cambiare il soggetto mentre si risponde."
+
+#: Controller/Component/PostcaseComponent.php:1231
+msgid "Don't want these emails? To unsubscribe, please contact your account administrator to turn off <b>Daily Catch-Up</b> alert for you."
+msgstr "Non desideri queste e-mail? Per annullare l'iscrizione, contattare l'amministratore account per disattivare il <b> Daily Catch-Up </ b> avviso per voi."
+
+#: Controller/Component/PostcaseComponent.php:1258
+msgid "Sorry! You are exceeding your user limit"
+msgstr "Scusa! Stai superando il limite utenze"
+
+#: Controller/Component/PostcaseComponent.php:1286
+msgid "Sorry! You are not allowed to add a disabled user to a the project"
+msgstr "Scusate! Non è consentito aggiungere un utente disabilitato ad un progetto"
+
+#: Controller/Component/PostcaseComponent.php:1349
+msgid " invited you to join "
+msgstr "ti ha invitato a partecipare"
+
+#: Controller/Component/PostcaseComponent.php:1352
+msgid " invited you to join Orangescrum"
+msgstr "ti ha invitato a partecipare a Orangescrum"
+
+#: Model/Easycase.php:203;406
+msgid "Set Due Date"
+msgstr "Imposta Data di scadenza"
+
+#: Model/Easycase.php:392;561 View/Elements/case_details.ctp:757;762 View/Elements/case_project.ctp:427 View/Elements/popup.ctp:1245;1252
+msgid "No Due Date"
+msgstr "Niente  Data di scadenza"
+
+#: Model/Easycase.php:535 Model/User.php:176
+msgid "Modified"
+msgstr "Modificata"
+
+#: Model/Easycase.php:544
+msgid "Task Type changed to"
+msgstr "Task Type cambiato"
+
+#: Model/Easycase.php:553
+msgid "Task re-assigned to"
+msgstr "Task ri-assegnato a"
+
+#: Model/Easycase.php:559
+msgid "Due Date changed to"
+msgstr "Data di scadenza modificata per"
+
+#: Model/Easycase.php:561 Plugin/API/View/Apis/ajax_test_api.ctp:24 Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:43;44 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:44;45 Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:113 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:91 Plugin/Invoice/View/Invoices/invoice.ctp:247 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:123
+#: View/Easycase/dashboard.ctp:28;110;137 View/Elements/case_project.ctp:55;56 View/Elements/header_inner.ctp:433 View/Elements/popup.ctp:1237 View/Milestone/add_case.ctp:23 View/Milestone/remove_cases_from_milestone.ctp:19 View/Projects/importexport.ctp:91;149
+msgid "Due Date"
+msgstr "Scadenza"
+
+#: Model/Easycase.php:566;568;570
+msgid "Priority changed to"
+msgstr "Priorità cambiata"
+
+#: Model/Easycase.php:576 Model/User.php:215
+msgid "Status changed to"
+msgstr "Stato cambiato"
+
+#: Model/Easycase.php:579
+msgid "Estimated Hour(s) changed to"
+msgstr "Ora stimata cambiata in"
+
+#: Model/Easycase.php:581
+msgid "Added time log"
+msgstr "Aggiunto log tempo"
+
+#: Model/Easycase.php:583
+msgid "Updated time log"
+msgstr "log tempo Aggiornato"
+
+#: Model/Easycase.php:883
+msgid "changed estimated hour(s) of"
+msgstr "cambio dell'ora stimata di"
+
+#: Model/Easycase.php:892
+msgid "changed progress of"
+msgstr "cambiato il progresso di"
+
+#: Model/Easycase.php:965
+msgid "No Task found with the selected id"
+msgstr "Nessun compito trovato con l'ID selezionato"
+
+#: Model/Project.php:138
+msgid "Project deleted successfully"
+msgstr "Progetto cancellato con successo"
+
+#: Model/Project.php:143
+msgid "Oops! No project found with the given id."
+msgstr "Oops! Nessun progetto trovato con il dato id."
+
+#: Model/User.php:170;218
+msgid "responded"
+msgstr "risposto"
+
+#: Model/User.php:172 View/Elements/kanban_task.ctp:86
+msgid "closed"
+msgstr "chiuso"
+
+#: Model/User.php:174
+msgid "resolved"
+msgstr "risolto"
+
+#: Model/User.php:180
+msgid "Changed the status to"
+msgstr "Cambiato lo stato di"
+
+#: Model/User.php:180
+msgid "of the task"
+msgstr "del task"
+
+#: Model/User.php:188;203;209;215 View/Elements/case_project.ctp:366
+msgid "updated"
+msgstr "aggiornato"
+
+#: Model/User.php:188
+msgid "task type to"
+msgstr "tipo di task di"
+
+#: Model/User.php:194 View/Elements/new_user.ctp:39
+msgid "assigned"
+msgstr "assegnato"
+
+#: Model/User.php:194;209 Plugin/Timelog/Controller/LogTimesController.php:424
+msgid "to"
+msgstr "a"
+
+#: Model/User.php:203
+msgid "proirity to"
+msgstr "proirità a"
+
+#: Model/User.php:209
+msgid "due date on"
+msgstr "data di scadenza su"
+
+#: Model/User.php:221 View/Elements/case_project.ctp:366
+msgid "created"
+msgstr "creato"
+
+#: Model/User.php:374
+msgid "Email already exists! Please try another"
+msgstr "Email già esistente! Si prega di provare con un altro"
+
+#: Model/User.php:378
+msgid "Please enter a valid email."
+msgstr "Inserisci una email valida."
+
+#: Model/User.php:391
+msgid "is not allowed"
+msgstr "non è permesso"
+
+#: Model/User.php:396
+msgid "Oops, site address already in use!"
+msgstr "Ops, l'indirizzo già in uso sito!"
+
+#: Model/User.php:405
+msgid "Invalid coupon code!"
+msgstr "codice coupon valido!"
+
+#: Model/User.php:408
+msgid "Oops! Coupon code has already used."
+msgstr "Oops! Codici promozionali già utilizzati."
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:12
+msgid "Select Project"
+msgstr "Selezionare Progetto"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:25 Plugin/API/View/Apis/settings.ctp:24 View/Elements/header_inner.ctp:193 View/Users/getting_started.ctp:32 View/Users/manage.ctp:77;82
+msgid "User"
+msgstr "Utente"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:27 Plugin/Timelog/View/Elements/log_task.ctp:82 View/Elements/log_task.ctp:82
+msgid "Select User"
+msgstr "Selezionare utente"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:31 Plugin/API/View/Apis/settings.ctp:23
+msgid "Key"
+msgstr "Chiave"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:43 Plugin/API/View/Apis/ajax_test_api.ctp:60 Plugin/API/View/Apis/settings.ctp:62;93 Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:63 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:20 Plugin/Invoice/View/Invoices/invoice.ctp:161;222 Plugin/Invoice/View/Invoices/settings.ctp:27 Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:124
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:273 View/Archive/listall.ctp:4;106 View/Easycase/mydashboard.ctp:28;50;76;93;110;124;139;161;176;190 View/Elements/case_details.ctp:777 View/Elements/footer_inner.ctp:58 View/Elements/kanban_task.ctp:373 View/Elements/popup.ctp:84;97;231;981 View/Install/index.ctp:15;25;35;45;55 View/Projects/groupupdatealerts.ctp:23;45 View/Projects/project_members.ctp:82
+#: View/Users/changepassword.ctp:45 View/Users/email_notifications.ctp:82 View/Users/email_reports.ctp:170 View/Users/mycompany.ctp:95 View/Users/profile.ctp:124
+msgid "Loading"
+msgstr "Caricamento in corso"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:45 Plugin/API/View/Apis/ajax_test_api.ctp:62 Plugin/API/View/Apis/settings.ctp:56 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:223 Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:306;418 Plugin/Invoice/View/Invoices/settings.ctp:21 Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:85 Plugin/Timelog/View/Elements/log_task.ctp:134
+#: View/Elements/footer_inner.ctp:54 View/Elements/log_task.ctp:127 View/Milestone/ajax_new_milestone.ctp:64 View/Projects/ajax_daily_update.ctp:33 View/Projects/ajax_edit_project.ctp:69 View/Projects/groupupdatealerts.ctp:37;38 View/Projects/task_type.ctp:117 View/Users/categorytab.ctp:26
+msgid "Save"
+msgstr "Salvare"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:45 Plugin/API/View/Apis/ajax_test_api.ctp:62 Plugin/ProjectTemplate/View/ProjectTemplates/add_template.ctp:83 Plugin/ProjectTemplate/View/ProjectTemplates/add_to_project.ctp:100 View/Elements/new_user.ctp:78 View/Elements/popup.ctp:65;349;358;512;1007 View/Milestone/ajax_new_milestone.ctp:64 View/Projects/onbording.ctp:239;247
+#: View/Projects/onbording_createproject.ctp:190;198
+msgid "Add"
+msgstr "Aggiungere"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:46 Plugin/API/View/Apis/ajax_test_api.ctp:63 Plugin/API/View/Apis/settings.ctp:57 Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:58 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:224 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:257 Plugin/Invoice/View/Invoices/invoice.ctp:281;345 Plugin/Invoice/View/Invoices/settings.ctp:22
+#: Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:87 Plugin/Timelog/View/Elements/log_task.ctp:138 View/Easycase/ajax_exportcsv.ctp:159 View/Easycase/ajax_move_task_to_project.ctp:39 View/Elements/case_details.ctp:632 View/Elements/footer_inner.ctp:56 View/Elements/log_task.ctp:131 View/Elements/new_customer.ctp:82 View/Elements/new_project.ctp:143 View/Elements/new_user.ctp:80
+#: View/Elements/popup.ctp:66;299;352;360;412;446;516;548;606;663;718;764;1008;1410 View/Milestone/ajax_new_milestone.ctp:66 View/Projects/ajax_edit_project.ctp:71 View/Projects/groupupdatealerts.ctp:40 View/Users/changepassword.ctp:40 View/Users/email_notifications.ctp:77 View/Users/email_reports.ctp:165 View/Users/forgotpassword.ctp:55;106 View/Users/getting_started.ctp:59 View/Users/profile.ctp:118
+msgid "or"
+msgstr "o"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:46 Plugin/API/View/Apis/ajax_test_api.ctp:63 Plugin/API/View/Apis/settings.ctp:58 Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:59 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:224 Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:404 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:257 Plugin/Invoice/View/Invoices/invoice.ctp:200;282;346
+#: Plugin/Invoice/View/Invoices/settings.ctp:23 Plugin/MultiLanguage/View/MultiLanguage/settings.ctp:29 Plugin/ProjectTemplate/View/ProjectTemplates/add_template.ctp:84 Plugin/ProjectTemplate/View/ProjectTemplates/add_to_project.ctp:101 Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:88 Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:87 Plugin/Timelog/View/Elements/log_task.ctp:138
+#: View/Easycase/ajax_exportcsv.ctp:159 View/Easycase/ajax_move_task_to_project.ctp:39 View/Elements/case_details.ctp:633 View/Elements/footer_inner.ctp:56 View/Elements/log_task.ctp:131 View/Elements/new_customer.ctp:82 View/Elements/new_project.ctp:144 View/Elements/new_user.ctp:81 View/Elements/popup.ctp:67;232;236;299;353;361;412;446;517;548;606;664;718;764;801;848;894;1009;1411
+#: View/Milestone/ajax_new_milestone.ctp:67 View/Projects/ajax_daily_update.ctp:35 View/Projects/ajax_edit_project.ctp:71 View/Projects/groupupdatealerts.ctp:41 View/Projects/onbording.ctp:241;248 View/Projects/onbording_createproject.ctp:192;199 View/Users/categorytab.ctp:28 View/Users/changepassword.ctp:41 View/Users/email_notifications.ctp:78 View/Users/email_reports.ctp:166 View/Users/forgotpassword.ctp:55;106
+#: View/Users/mycompany.ctp:91 View/Users/profile.ctp:119
+msgid "Cancel"
+msgstr "Annulla"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:82
+msgid "Project can not be left blank"
+msgstr "Progetto non può essere lasciato vuoto"
+
+#: Plugin/API/View/Apis/ajax_generate_key.ctp:86
+msgid "User can not be left blank"
+msgstr "L'utente non può essere lasciato vuoto"
+
+#: Plugin/API/View/Apis/ajax_test_api.ctp:6
+msgid "API Key"
+msgstr "API Key"
+
+#: Plugin/API/View/Apis/ajax_test_api.ctp:12 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:25 Plugin/ProjectTemplate/View/ProjectTemplates/add_to_project.ctp:43 Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:31 Plugin/ProjectTemplate/View/ProjectTemplates/view_templates.ctp:15 View/Archive/listall.ctp:47 View/Easycase/dashboard.ctp:131 View/Elements/case_project.ctp:43;44
+#: View/Elements/new_customer.ctp:13 View/Elements/popup.ctp:698;744;1186 View/Milestone/add_case.ctp:21 View/Milestone/ajax_new_milestone.ctp:22 View/Milestone/remove_cases_from_milestone.ctp:17 View/Projects/ajax_view_temp_cases.ctp:17 View/Projects/ajax_view_template_cases.ctp:3 View/Projects/importexport.ctp:89;147 View/Projects/view_template_cases.ctp:27 View/Templates/view_templates.ctp:15
+msgid "Title"
+msgstr "Titolo"
+
+#: Plugin/API/View/Apis/ajax_test_api.ctp:18 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:30 Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:151 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:128 Plugin/Invoice/View/Invoices/ajax_time_list.ctp:38 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:135 Plugin/ProjectTemplate/View/ProjectTemplates/add_template.ctp:60
+#: Plugin/ProjectTemplate/View/ProjectTemplates/add_to_project.ctp:44 Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:32 Plugin/ProjectTemplate/View/ProjectTemplates/view_templates.ctp:18 View/Elements/case_quick.ctp:214 View/Elements/popup.ctp:704;750;835 View/Milestone/ajax_new_milestone.ctp:30 View/Projects/ajax_view_temp_cases.ctp:18 View/Projects/ajax_view_template_cases.ctp:4
+#: View/Projects/importexport.ctp:90;148 View/Projects/view_template_cases.ctp:28 View/Templates/view_templates.ctp:18
+msgid "Description"
+msgstr "Descrizione"
+
+#: Plugin/API/View/Apis/ajax_test_api.ctp:30
+msgid "Estimated Hour"
+msgstr "Ora stimata"
+
+#: Plugin/API/View/Apis/ajax_test_api.ctp:36
+msgid "File 1"
+msgstr "File 1"
+
+#: Plugin/API/View/Apis/ajax_test_api.ctp:41;51
+msgid "Select a file to upload"
+msgstr "Selezionare un file da caricare"
+
+#: Plugin/API/View/Apis/ajax_test_api.ctp:46
+msgid "File 2"
+msgstr "File 2"
+
+#: Plugin/API/View/Apis/ajax_test_api.ctp:87
+msgid "API key can not be blank"
+msgstr "API key non può essere vuoto"
+
+#: Plugin/API/View/Apis/ajax_test_api.ctp:91
+msgid "Task title can not be left blank"
+msgstr "Task titolo non può essere lasciato vuoto"
+
+#: Plugin/API/View/Apis/settings.ctp:13 View/Users/mycompany.ctp:25
+msgid "Generate"
+msgstr "creare"
+
+#: Plugin/API/View/Apis/settings.ctp:14;72;89;106
+msgid "Generate API Key"
+msgstr "Generare API Key"
+
+#: Plugin/API/View/Apis/settings.ctp:26
+msgid "Is Active"
+msgstr "È attivo"
+
+#: Plugin/API/View/Apis/settings.ctp:27 Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:53 Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:34 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:54 Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:155 Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:33 Plugin/Timelog/View/LogTimes/time_log.ctp:232
+#: View/Projects/view_template_cases.ctp:30
+msgid "Action"
+msgstr "Azione"
+
+#: Plugin/API/View/Apis/settings.ctp:47 Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:44 Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:97;172 Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:71 Plugin/TaskStatusGroup/View/Workflow/workflow.ctp:160 View/Elements/ajax_milestonelist.ctp:108;110;336;434;436 View/Elements/case_project.ctp:222 View/Elements/kanban_task.ctp:34;35;320
+#: View/Elements/manage_milestone.ctp:127 View/Projects/manage.ctp:101 View/Templates/tasks.ctp:98
+msgid "Edit"
+msgstr "Modifica"
+
+#: Plugin/API/View/Apis/settings.ctp:48 Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:82 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:83 Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:98;173 Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:72 Plugin/TaskStatusGroup/View/Workflow/workflow.ctp:165 View/Elements/ajax_milestonelist.ctp:116;118;371;442;444
+#: View/Elements/case_project.ctp:271 View/Elements/kanban_task.ctp:37;38;355 View/Elements/manage_milestone.ctp:129 View/Projects/manage.ctp:106;112 View/Templates/tasks.ctp:99 View/Users/manage.ctp:118
+msgid "Delete"
+msgstr "cancellare"
+
+#: Plugin/API/View/Apis/settings.ctp:49
+msgid "Test API"
+msgstr "API di prova"
+
+#: Plugin/API/View/Apis/settings.ctp:69
+msgid "Api key not created. Generate new Api key"
+msgstr "API Key non ha creato. Genera nuova Api key"
+
+#: Plugin/API/View/Apis/settings.ctp:118
+msgid "Test API form"
+msgstr "modulo API di prova"
+
+#: Plugin/API/View/Apis/settings.ctp:130
+msgid "Are you sure to delete this api key"
+msgstr "Sei sicuro di voler eliminare questa API key"
+
+#: Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:5 View/Elements/breadcrumb.ctp:58 View/Elements/company_settings.ctp:48
+msgid "Client Restrictions"
+msgstr "Restrizioni client"
+
+#: Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:13
+msgid "A client cannot create a project, but can view"
+msgstr "Un client non è in grado di creare un progetto, ma può visualizzare"
+
+#: Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:15;22;31;38;45 View/Users/email_notifications.ctp:16;23;30;49 View/Users/email_reports.ctp:19;48;67
+msgid "Yes"
+msgstr "sì"
+
+#: Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:16;23;32;39;46 View/Users/email_notifications.ctp:17;24;31;50 View/Users/email_reports.ctp:22;51;70
+msgid "No"
+msgstr "No"
+
+#: Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:20
+msgid "A client cannot  create a new user or add a user"
+msgstr "Un client non è in grado di creare un nuovo utente o aggiungere un utente"
+
+#: Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:27
+msgid "A client cannot create a new task but can view the task"
+msgstr "Un client non è in grado di creare una nuova attività, ma può visualizzare il compito"
+
+#: Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:36
+msgid "A client can reply to a task"
+msgstr "Un client può rispondere a un task"
+
+#: Plugin/ClientRestriction/View/ClientRestriction/settings.ctp:43
+msgid "A client cannot create a new milestone, but can view"
+msgstr "Un client non è in grado di creare una nuova Milestone, ma può visualizzare"
+
+#: Plugin/Ganttchart/Controller/GanttchartController.php:258;351 Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:53
+msgid "Default Milestone"
+msgstr "Standard Milestone"
+
+#: Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:6
+msgid "Edit Task"
+msgstr "Modifica operazione"
+
+#: Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:26 Plugin/ProjectTemplate/View/ProjectTemplates/add_template.ctp:54 Plugin/Timelog/View/Elements/log_task.ctp:55 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:162 View/Elements/log_task.ctp:55 View/Elements/popup.ctp:829 View/Projects/importexport.ctp:89
+msgid "Task Title"
+msgstr "Task Titolo"
+
+#: Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:44 View/Elements/popup.ctp:1179
+msgid "Oops! No project selected."
+msgstr "Oops! Nessun progetto selezionato."
+
+#: Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:75 View/Elements/breadcrumb.ctp:117 View/Elements/case_quick.ctp:55 View/Elements/company_settings.ctp:25;29 View/Elements/header_inner.ctp:320
+msgid "Task Type"
+msgstr "Task Type"
+
+#: Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:159 View/Easycase/dashboard.ctp:64 View/Elements/popup.ctp:1201
+msgid "Assign To"
+msgstr "Assegnato a"
+
+#: Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:179 View/Users/email_reports.ctp:27
+msgid "Task Status"
+msgstr "Stato attività"
+
+#: Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:183
+msgid "Task status"
+msgstr "lo stato delle attività"
+
+#: Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:199 Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:329 Plugin/Invoice/View/Invoices/ajax_time_list.ctp:44 Plugin/Timelog/View/LogTimes/time_log.ctp:227 View/Elements/ajax_case_status.ctp:126 View/Elements/ajax_milestonelist.ctp:308 View/Elements/case_project.ctp:22;182 View/Elements/kanban_task.ctp:291;292 View/Install/index.ctp:18
+msgid "Start"
+msgstr "Inizio"
+
+#: Plugin/Ganttchart/View/Elements/ganttv2_edit_task.ctp:206 Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:330 Plugin/Invoice/View/Invoices/ajax_time_list.ctp:45 Plugin/Timelog/View/LogTimes/time_log.ctp:228
+msgid "End"
+msgstr "Fine"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:283
+msgid "Undo"
+msgstr "Disfare"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:284
+msgid "Redo"
+msgstr "Rifare"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:286
+msgid "Insert Task Above"
+msgstr "Inserire Task Sopra"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:287
+msgid "Insert Task Below"
+msgstr "Inserire Task Sotto"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:289
+msgid "Indent Task"
+msgstr "Task indentato"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:290
+msgid "Unindent Task"
+msgstr "Task non indentato"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:292
+msgid "Move Up"
+msgstr "sali"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:293
+msgid "Move Down"
+msgstr "scendi"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:295
+msgid "Zoom Out"
+msgstr "zoom out"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:296
+msgid "Zoom In"
+msgstr "Ingrandire"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:298
+msgid "Delete Task"
+msgstr "Elimina attività"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:300 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:71
+msgid "Print"
+msgstr "Stampare"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:302
+msgid "Critical Path"
+msgstr "Percorso critico"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:304
+msgid "Edit Resources"
+msgstr "modificare le risorse"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:309 Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:241;243 Plugin/Timelog/View/LogTimes/time_log.ctp:344;346 View/Archive/milestone_list.ctp:222;226 View/Easycase/dashboard.ctp:320 View/Elements/breadcrumb.ctp:333 View/Elements/paginate.ctp:59;61 View/Install/index.ctp:28;38 View/Projects/manage.ctp:269;271;275;277 View/Templates/tasks.ctp:174;176
+#: View/Users/manage.ctp:355;357
+msgid "Next"
+msgstr "Il prossimo"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:310 View/Easycase/dashboard.ctp:325 View/Elements/breadcrumb.ctp:339
+msgid "Previous"
+msgstr "Precedente"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:321
+msgid "Code/short Name"
+msgstr "Codice / short Nome"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:323 Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:18;19 Plugin/Timelog/View/LogTimes/time_log.ctp:218;219 View/Elements/new_customer.ctp:11 View/Elements/popup.ctp:47;636;989 View/Projects/add_user.ctp:9 View/Projects/user_listing.ctp:13 View/Report/hours_gridview.ctp:8 View/Report/tlg_hours_gridview.ctp:8 View/Users/add_project.ctp:14
+#: View/Users/mycompany.ctp:14 View/Users/profile.ctp:13 View/Users/project_listing.ctp:11
+msgid "Name"
+msgstr "Nome"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:324
+msgid "Hide Tasks"
+msgstr "nascondere le attività"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:331
+msgid "Duration"
+msgstr "Durata"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:332
+msgid "Dep"
+msgstr "dep"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:333
+msgid "Assignees"
+msgstr "assegnatari"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:413
+msgid "name"
+msgstr "Nome"
+
+#: Plugin/Ganttchart/View/Ganttchart/ganttv2.ctp:476
+msgid "You have modified tasks, reloading the page will reset all changes"
+msgstr "Sono stati modificati task, ricaricare la pagina ripristinerà tutte le modifiche"
+
+#: Plugin/Invoice/Controller/InvoicesController.php:222 Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:100 Plugin/ProjectTemplate/Controller/ProjectTemplatesController.php:353 Plugin/ProjectTemplate/View/ProjectTemplates/add_to_project.ctp:16;26 Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:24 Plugin/Timelog/View/Elements/existing_task.ctp:1 View/Elements/new_project.ctp:44
+#: View/Milestone/ajax_new_milestone.ctp:9 View/Projects/ajax_daily_update.ctp:14 View/Projects/ajax_edit_project.ctp:24 View/Projects/groupupdatealerts.ctp:14 View/Projects/project_members.ctp:59;65
+msgid "Select"
+msgstr "Selezionare"
+
+#: Plugin/Invoice/Controller/InvoicesController.php:223 Plugin/Invoice/View/Invoices/invoice.ctp:183
+msgid "Add New Invoice"
+msgstr "Aggiungere Nuova fattura"
+
+#: Plugin/Invoice/Controller/InvoicesController.php:241
+msgid "Please enter customer name."
+msgstr "Si prega di inserire il nome del cliente."
+
+#: Plugin/Invoice/Controller/InvoicesController.php:244
+msgid "Please enter email address."
+msgstr "Si prega di inserire l'indirizzo e-mail."
+
+#: Plugin/Invoice/Controller/InvoicesController.php:247
+msgid "Please select currency."
+msgstr "Si prega di selezionare la valuta."
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:5
+msgid "Archived Invoice"
+msgstr "fattura archiviata "
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:19;80 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:81 View/Archive/listall.ctp:35;66 View/Archive/milestone_list.ctp:46 View/Elements/ajax_milestonelist.ctp:133;135;458;460 View/Elements/case_details.ctp:667 View/Elements/case_project.ctp:235 View/Elements/kanban_task.ctp:41;42 View/Elements/manage_milestone.ctp:117
+msgid "Restore"
+msgstr "Ristabilire"
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:28;29 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:5;29;30 Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:86;89 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:65 Plugin/Invoice/View/Invoices/invoice.ctp:136;138;224;239;339 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:101 View/Elements/header_inner.ctp:67;69
+msgid "Invoice"
+msgstr "Fattura"
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:33;34 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:34;35 Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:109 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:84 Plugin/Invoice/View/Invoices/invoice.ctp:243 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:118
+msgid "Invoice Date"
+msgstr "Data fattura"
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:38;39 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:39;40 Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:43
+msgid "Customer"
+msgstr "Cliente"
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:48;49 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:49;50 Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:154 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:131 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:138
+msgid "Amount"
+msgstr "Quantità"
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:52 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:53
+msgid "Paid"
+msgstr "Pagato"
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:78 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:20;79 View/Elements/ajax_milestonelist.ctp:365 View/Elements/breadcrumb.ctp:21 View/Elements/case_files.ctp:54 View/Elements/case_project.ctp:265 View/Elements/header_inner.ctp:93 View/Elements/kanban_task.ctp:349
+msgid "Archive"
+msgstr "archivio"
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:89 Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:49 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:90 Plugin/Invoice/View/Invoices/ajax_time_list.ctp:78 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:155 Plugin/Timelog/View/LogTimes/time_log.ctp:265
+msgid "No records"
+msgstr "Nessuna registrazione"
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:155 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:156
+msgid "Are you sure you want to delete this invoice ?"
+msgstr "Sei sicuro di voler eliminare questa fattura?"
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:158 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:159
+msgid "Invoice deleted successfully."
+msgstr "Fattura cancellato con successo."
+
+#: Plugin/Invoice/View/Invoices/ajax_archived_invoice_list.ctp:161 Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:163
+msgid "Invoice not deleted."
+msgstr "Fattura non cancellato."
+
+#: Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:8
+msgid "Customers"
+msgstr "Clienti"
+
+#: Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:10
+msgid "Add Customer"
+msgstr "Aggiungere clienti"
+
+#: Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:22 View/Elements/new_customer.ctp:31;32
+msgid "Organization"
+msgstr "Organizzazione"
+
+#: Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:23 View/Elements/new_customer.ctp:35 View/Users/profile.ctp:42
+msgid "Address"
+msgstr "Indirizzo"
+
+#: Plugin/Invoice/View/Invoices/ajax_customer_list.ctp:25;26 Plugin/Invoice/View/Invoices/invoice.ctp:252 View/Elements/new_customer.ctp:25;27 View/Users/profile.ctp:48
+msgid "Currency"
+msgstr "Moneta"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:22;74
+msgid "Mark as Paid"
+msgstr "Segna come Pagato"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:23;76
+msgid "Mark as Unpaid"
+msgstr "Segna come non pagata"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_list.ctp:69 View/Elements/new_customer.ctp:21;22 View/Elements/popup.ctp:642 View/Projects/add_user.ctp:11 View/Projects/user_listing.ctp:15 View/Users/getting_started.ctp:104 View/Users/manage.ctp:263 View/Users/profile.ctp:25
+msgid "Email"
+msgstr "E-mail"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:15
+msgid "Company Logo"
+msgstr "Logo della compagnia"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:38 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:24
+msgid "Billing From"
+msgstr "Fatturazione Da"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:46
+msgid "Choose a Customer"
+msgstr "Scegliere un cliente"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:55 Plugin/Invoice/View/Invoices/invoice.ctp:832 View/Elements/popup.ctp:23
+msgid "Add New Customer"
+msgstr "Aggiungi nuovo cliente"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:70
+msgid "No Customers found"
+msgstr "Nessun cliente trovato"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:77 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:51
+msgid "Billing To"
+msgstr "fatturazione per"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:97 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:72 Plugin/Invoice/View/Invoices/invoice.ctp:273 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:106
+msgid "Terms"
+msgstr "condizioni"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:101
+msgid "Due on receipt"
+msgstr "Dovuto al ricevimento"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:102
+msgid "Net 15"
+msgstr "net 15"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:103
+msgid "Net 30"
+msgstr "net 30"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:104
+msgid "Net 60"
+msgstr "net 60"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:124 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:100
+msgid "Balance Due"
+msgstr "Saldo scaduto"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:149 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:126
+msgid "Sl"
+msgstr "sl"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:150 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:127 Plugin/Invoice/View/Invoices/ajax_time_list.ctp:24;25 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:134 Plugin/Timelog/View/Elements/log_task.ctp:71 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:17;159 Plugin/Timelog/View/LogTimes/time_log.ctp:53;214;215 View/Easycase/ajax_exportcsv.ctp:37
+#: View/Elements/log_task.ctp:71 View/Elements/weekly_usage.ctp:120
+msgid "Date"
+msgstr "Data"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:152 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:129 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:136
+msgid "Qty"
+msgstr "Quantità"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:153 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:130 Plugin/Invoice/View/Invoices/invoice.ctp:258 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:137
+msgid "Rate"
+msgstr "tasso"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:285
+msgid "Add Line-item"
+msgstr "Aggiungere Linea-item"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:319 Plugin/Invoice/View/Invoices/invoice.ctp:255 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:191
+msgid "USD"
+msgstr "Dollaro statunitense"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:330 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:170 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:163
+msgid "Subtotal"
+msgstr "totale parziale"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:338
+msgid "Discount Percent"
+msgstr "per cento di sconto"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:339
+msgid "Discount Flat"
+msgstr "sconto piatto"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:349 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:197 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:179
+msgid "Tax"
+msgstr "Imposta"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:352 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:207 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:189
+msgid "Total Amount"
+msgstr "Importo totale"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:363 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:224
+msgid "Message displayed on invoice"
+msgstr "Messaggio visualizzato sulla fattura"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:368 Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:228
+msgid "Memo"
+msgstr "promemoria"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:387
+msgid "Save & Send"
+msgstr "Salva e invia"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:393
+msgid "Save & Download"
+msgstr "Salva & Scarica"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:396
+msgid "Save & Close"
+msgstr "Salva e chiudi"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:399
+msgid "Save & New"
+msgstr "Salva e Nuovo"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:408
+msgid "Preview &amp; Print"
+msgstr "Anteprima & amp; Stampare"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:568
+msgid "File size exceeds 2MB."
+msgstr "dimensione del file supera 2 MB."
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page.ctp:613
+msgid "Are you sure you want to delete this time log ?"
+msgstr "Sei sicuro di voler eliminare questo time log?"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:177 Plugin/Invoice/View/Invoices/invoice_pdf.ctp:168
+msgid "Discount"
+msgstr "Sconto"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:246
+msgid "Send Email"
+msgstr "Invia una email"
+
+#: Plugin/Invoice/View/Invoices/ajax_invoice_page_view.ctp:246 Plugin/Invoice/View/Invoices/invoice.ctp:344
+msgid "Send"
+msgstr "Inviare"
+
+#: Plugin/Invoice/View/Invoices/ajax_time_list.ctp:3 Plugin/Invoice/View/Invoices/invoice.ctp:128;130
+msgid "Unbilled Time"
+msgstr "Tempo non pagato"
+
+#: Plugin/Invoice/View/Invoices/ajax_time_list.ctp:4
+msgid "Total Billable"
+msgstr "totale fatturabile"
+
+#: Plugin/Invoice/View/Invoices/ajax_time_list.ctp:6;84
+msgid "Create Invoice"
+msgstr "creare fattura"
+
+#: Plugin/Invoice/View/Invoices/ajax_time_list.ctp:11;89
+msgid "Create Invoice without Unbilled Time"
+msgstr "Creare fattura senza Tempo non pagato "
+
+#: Plugin/Invoice/View/Invoices/ajax_time_list.ctp:29;30 Plugin/Timelog/View/Elements/log_task.ctp:70 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:147;160 Plugin/Timelog/View/LogTimes/time_log.ctp:155 View/Elements/log_task.ctp:70
+msgid "Resource"
+msgstr "Risorsa"
+
+#: Plugin/Invoice/View/Invoices/ajax_time_list.ctp:46 View/Elements/weekly_usage.ctp:159
+msgid "Hours"
+msgstr "Ore"
+
+#: Plugin/Invoice/View/Invoices/ajax_time_list.ctp:47 Plugin/Timelog/View/Elements/log_task.ctp:58;108 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:166 Plugin/Timelog/View/LogTimes/time_log.ctp:182;230 View/Elements/log_task.ctp:58;108
+msgid "Billable"
+msgstr "fatturabile"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:143;145 View/Archive/file_list.ctp:33 View/Elements/case_project.ctp:307
+msgid "Archived"
+msgstr "Archiviati"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:151
+msgid "Manage Customers"
+msgstr "gestire i clienti"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:172
+msgid "Add Unbilled time to Invoice"
+msgstr "Aggiungere il tempo non pagato alla fattura"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:180
+msgid "Choose Invoice"
+msgstr "Scegli fattura"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:218;280
+msgid "Generate Invoice"
+msgstr "generare fattura"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:231
+msgid "Essentials"
+msgstr "Essentials"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:232
+msgid "Optional"
+msgstr "Facoltativo"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:255
+msgid "US Dollar"
+msgstr "Dollaro Americano"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:260
+msgid "price"
+msgstr "prezzo"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:269 Plugin/Timelog/View/LogTimes/time_log.ctp:226 View/Elements/footer_inner.ctp:45
+msgid "Note"
+msgstr "Nota"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:269;273 View/Elements/new_project.ctp:76
+msgid "optional"
+msgstr "facoltativo"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:303
+msgid "Send invoice"
+msgstr "Inviare la fattura"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:312 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:96 View/Easycase/ajax_date.ctp:50 View/Easycase/ajax_duedate.ctp:52 View/Elements/date_filter.ctp:38 View/Elements/duedate_filter.ctp:31
+msgid "From"
+msgstr "Da parte di"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:319 Plugin/Timelog/View/LogTimes/resource_utilization.ctp:97 View/Easycase/ajax_date.ctp:51 View/Easycase/ajax_duedate.ctp:53 View/Elements/date_filter.ctp:39 View/Elements/duedate_filter.ctp:32 View/Helper/FormatHelper.php:661
+msgid "To"
+msgstr "A"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:326
+msgid "Subject"
+msgstr "Soggetto"
+
+#: Plugin/Invoice/View/Invoices/invoice.ctp:332 View/Elements/popup.ctp:648
+msgid "Message"
+msgstr "Messaggio"
+
+#: Plugin/Invoice/View/Invoices/invoice_pdf.ctp:208
+msgid "MEMO"
+msgstr "MEMO"
+
+#: Plugin/Invoice/View/Invoices/settings.ctp:12
+msgid "Layout"
+msgstr "disposizione"
+
+#: Plugin/MultiLanguage/Controller/MultiLanguageController.php:20
+msgid "Language changed successfully"
+msgstr "Lingua cambiata con successo"
+
+#: Plugin/MultiLanguage/Controller/MultiLanguageController.php:22
+msgid "Language can't change. Try again later !"
+msgstr "La lingua non può cambiare. Riprovare più tardi !"
+
+#: Plugin/MultiLanguage/View/MultiLanguage/settings.ctp:6
+msgid "Language Setting"
+msgstr "Impostazione della lingua"
+
+#: Plugin/MultiLanguage/View/MultiLanguage/settings.ctp:13 View/Elements/breadcrumb.ctp:66
+msgid "Language"
+msgstr "Lingua"
+
+#: Plugin/ProjectTemplate/Controller/ProjectTemplatesController.php:344
+msgid "Template tasks updated successfully"
+msgstr "Template tasks aggiornati con successo"
+
+#: Plugin/ProjectTemplate/Controller/ProjectTemplatesController.php:357
+msgid "Add New Template"
+msgstr "Aggiungere nuovo modello"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/add_template.ctp:16;39 Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:87 View/Archive/listall.ctp:36;67 View/Archive/milestone_list.ctp:50 View/Elements/case_files.ctp:56 View/Elements/case_project.ctp:238 View/Elements/popup.ctp:297;444;603
+msgid "Remove"
+msgstr "Rimuovere"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/add_template.ctp:67
+msgid "Add new Row"
+msgstr "Aggiungere un nuovo rigo"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/add_template.ctp:73 Plugin/Timelog/View/LogTimes/time_log.ctp:166
+msgid "loading"
+msgstr "Caricamento in corso"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/add_to_project.ctp:112
+msgid "No task on template"
+msgstr "Nessun task sul template"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/add_to_project.ctp:122 Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:108
+msgid "Add Task to Template"
+msgstr "Aggiungi task al Template"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:31 View/Elements/case_project.ctp:29
+msgid "Create Project Template"
+msgstr "Creazione del Template di progetto"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:79;154
+msgid "Add to Project"
+msgstr "Aggiungere al progetto"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:84;159 View/Elements/case_details.ctp:848 View/Elements/kanban_task.ctp:177;178 View/Projects/manage.ctp:128 View/Templates/tasks.ctp:89 View/Users/manage.ctp:247
+msgid "Created"
+msgstr "Creato"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:93;168 View/Elements/ajax_milestonelist.ctp:101;103;427;429 View/Elements/kanban_task.ctp:31;32 View/Elements/manage_milestone.ctp:114
+msgid "Add Task"
+msgstr "Aggiungere Task"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:94;169
+msgid "Manage Task"
+msgstr "gestire Task"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:223 Plugin/Timelog/View/LogTimes/time_log.ctp:322 View/Archive/milestone_list.ctp:198 View/Elements/paginate.ctp:40 View/Projects/manage.ctp:239;241 View/Templates/tasks.ctp:156 View/Users/manage.ctp:337
+msgid "First"
+msgstr "Primo"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:228;230 Plugin/Timelog/View/LogTimes/time_log.ctp:327;329 View/Archive/milestone_list.ctp:204;208 View/Elements/paginate.ctp:45;47 View/Projects/manage.ctp:248;250;253 View/Templates/tasks.ctp:161;163 View/Users/manage.ctp:342;344
+msgid "Prev"
+msgstr "prev"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:247 Plugin/Timelog/View/LogTimes/time_log.ctp:350 View/Archive/milestone_list.ctp:231 View/Elements/paginate.ctp:65 View/Projects/manage.ctp:283;285 View/Templates/tasks.ctp:180 View/Users/manage.ctp:361
+msgid "Last"
+msgstr "Ultimo"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/projects.ctp:261 View/Templates/tasks.ctp:194
+msgid "Are you sure to delete the template"
+msgstr "Sei sicuro di voler eliminare il modello"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:11
+msgid "There's an error with AJAX"
+msgstr "C'è un errore con AJAX"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/remove_from_tasks.ctp:99
+msgid "No task on this template"
+msgstr "Nessun compito su questo modello"
+
+#: Plugin/ProjectTemplate/View/ProjectTemplates/view_templates.ctp:45 View/Templates/view_templates.ctp:45
+msgid "No tasks found"
+msgstr "Nessuna attività trovato"
+
+#: Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:5 View/Archive/milestone_list.ctp:62 View/Elements/new_project.ctp:7 View/Projects/ajax_edit_project.ctp:5
+msgid "Project Name"
+msgstr "Nome del progetto"
+
+#: Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:11 View/Projects/ajax_edit_project.ctp:11
+msgid "Project Short Name"
+msgstr "Progetto Nome breve"
+
+#: Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:21 View/Projects/ajax_edit_project.ctp:21
+msgid "Default Assign To"
+msgstr "Predefinito Assegnato a"
+
+#: Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:45
+msgid "Work Flow"
+msgstr "Flusso di lavoro"
+
+#: Plugin/TaskStatusGroup/View/Workflow/ajax_edit_project.ctp:49 Plugin/TaskStatusGroup/View/Workflow/workflow.ctp:85 View/Elements/default_workflow.ctp:6 View/Elements/new_project.ctp:28 View/Projects/manage.ctp:166
+msgid "Default Task Status Group"
+msgstr "Predefinito Task Group Status"
+
+#: Plugin/TaskStatusGroup/View/Workflow/workflow.ctp:78
+msgid "Create New Task Status Group"
+msgstr "Crea nuovo Task Group Status"
+
+#: Plugin/TaskStatusGroup/View/Workflow/workflow.ctp:103;141
+msgid "project"
+msgstr "progetto"
+
+#: Plugin/TaskStatusGroup/View/Workflow/workflow.ctp:108;146
+msgid "status"
+msgstr "stato"
+
+#: Plugin/TaskStatusGroup/View/Workflow/workflow.ctp:113
+msgid "No Activity"
+msgstr "Nessuna attività"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:424;431 View/Helper/FormatHelper.php:661
+msgid "from"
+msgstr "da parte di"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:435
+msgid "up to"
+msgstr "fino a"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:448
+msgid "of user"
+msgstr "dell'utente"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:462
+msgid "for task"
+msgstr "per l'attività"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:1022
+msgid "Date,Name,Task,Note,Start,End,Break,Billable,Hours"
+msgstr "Data, Nome, Attività, Note, Inizio, Fine, Pausa, fatturabile, Ore"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:1041
+msgid "Export Date,"
+msgstr "Export Data,"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:1042
+msgid "Total,"
+msgstr "Totale,"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:1043
+msgid "Total Billable Hours,"
+msgstr "Totale ore fatturabili,"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:1044
+msgid "Total Non-Billable Hours,"
+msgstr "Totale ore non fatturabili,"
+
+#: Plugin/Timelog/Controller/LogTimesController.php:1045
+msgid "Total Hours,"
+msgstr "Ore totali,"
+
+#: Plugin/Timelog/View/Elements/existing_task.ctp:1 Plugin/Timelog/View/Elements/log_task.ctp:65 View/Elements/log_task.ctp:65
+msgid "Select Task"
+msgstr "Selezionare Task"
+
+#: Plugin/Timelog/View/Elements/log_task.ctp:57 Plugin/Timelog/View/LogTimes/time_log.ctp:178 View/Elements/log_task.ctp:57
+msgid "Logged"
+msgstr "Logged"
+
+#: Plugin/Timelog/View/Elements/log_task.ctp:60 Plugin/Timelog/View/LogTimes/time_log.ctp:190 View/Elements/log_task.ctp:60
+msgid "Estimated"
+msgstr "Stimato"
+
+#: Plugin/Timelog/View/Elements/log_task.ctp:72 View/Elements/log_task.ctp:72
+msgid "Start Time"
+msgstr "Ora di inizio"
+
+#: Plugin/Timelog/View/Elements/log_task.ctp:73 View/Elements/log_task.ctp:73
+msgid "End Time"
+msgstr "Fine del tempo"
+
+#: Plugin/Timelog/View/Elements/log_task.ctp:74 View/Elements/log_task.ctp:74
+msgid "Break Time"
+msgstr "Pausa"
+
+#: Plugin/Timelog/View/Elements/log_task.ctp:75 View/Elements/log_task.ctp:75
+msgid "Spent Hours"
+msgstr "ore passate"
+
+#: Plugin/Timelog/View/Elements/log_task.ctp:119 View/Elements/log_task.ctp:119
+msgid "Add Item"
+msgstr "Aggiungi articolo"
+
+#: Plugin/Timelog/View/Elements/log_task.ctp:123 View/Elements/log_task.ctp:123
+msgid "Note:"
+msgstr "Nota:"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:11 Plugin/Timelog/View/LogTimes/time_log.ctp:46 View/Easycase/dashboard.ctp:15 View/Elements/header_inner.ctp:419
+msgid "Filters"
+msgstr "filtri"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:24 Plugin/Timelog/View/LogTimes/time_log.ctp:66 View/Easycase/ajax_duedate.ctp:23 View/Elements/ajax_milestonelist.ctp:154;478 View/Elements/case_details.ctp:763 View/Elements/case_project.ctp:428 View/Elements/kanban_task.ctp:59 View/Elements/popup.ctp:1253 View/Helper/DatetimeHelper.php:62;114;143;152;323
+msgid "Today"
+msgstr "Oggi"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:30 Plugin/Timelog/View/LogTimes/time_log.ctp:72 View/Helper/DatetimeHelper.php:118;143;152
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:36 Plugin/Timelog/View/LogTimes/time_log.ctp:78 View/Report/weeklyhours_report.ctp:19
+msgid "This Week"
+msgstr "Questa settimana"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:42 Plugin/Timelog/View/LogTimes/time_log.ctp:84
+msgid "This Month"
+msgstr "Questo mese"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:48 Plugin/Timelog/View/LogTimes/time_log.ctp:90
+msgid "This Quarter"
+msgstr "In questo trimestre"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:54 Plugin/Timelog/View/LogTimes/time_log.ctp:96
+msgid "This Year"
+msgstr "Quest'anno"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:60 Plugin/Timelog/View/LogTimes/time_log.ctp:102
+msgid "Last Week"
+msgstr "La settimana scorsa"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:66 Plugin/Timelog/View/LogTimes/time_log.ctp:108
+msgid "Last Month"
+msgstr "Lo scorso mese"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:72 Plugin/Timelog/View/LogTimes/time_log.ctp:114
+msgid "Last Quarter"
+msgstr "Lo scorso trimestre"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:78
+msgid "Last year"
+msgstr "L'anno scorso"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:84
+msgid "Last 365 days"
+msgstr "Ultimi 365 giorni"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:90 Plugin/Timelog/View/LogTimes/time_log.ctp:132 View/Elements/case_details.ctp:769;770 View/Elements/case_project.ctp:434;435 View/Elements/popup.ctp:1258
+msgid "Custom Date"
+msgstr "Data personalizzate"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:100 Plugin/Timelog/View/LogTimes/time_log.ctp:148 View/Easycase/ajax_date.ctp:54 View/Easycase/ajax_duedate.ctp:56 View/Elements/date_filter.ctp:42 View/Elements/duedate_filter.ctp:35
+msgid "Search"
+msgstr "Ricerca"
+
+#: Plugin/Timelog/View/LogTimes/resource_utilization.ctp:165 View/Elements/case_details.ctp:160;485 View/Elements/case_reply.ctp:89
+msgid "Hour(s) Spent"
+msgstr "ore trascorse"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:3
+msgid "Select Resource"
+msgstr "Selezionare Risorsa"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:41
+msgid "Showing time log"
+msgstr "Visualizzazione del registro di tempo"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:41
+msgid "for all users and all dates"
+msgstr "per tutti gli utenti e tutte le date"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:42 View/Easycase/dashboard.ctp:98
+msgid "Reset Filters"
+msgstr "Filtri di reset"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:60
+msgid "All Dates"
+msgstr "tutte le date"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:120
+msgid "Last Year"
+msgstr "L'anno scorso"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:126
+msgid "Last 365Days"
+msgstr "Ultima 365Days"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:144 View/Elements/analytics_header.ctp:50
+msgid "From Date"
+msgstr "da Data"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:145 View/Elements/analytics_header.ctp:51
+msgid "To Date"
+msgstr "Ad oggi"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:177 View/Report/bug_statistics.ctp:2 View/Report/tasks_statistics.ctp:2
+msgid "Total"
+msgstr "Totale"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:186
+msgid "Non-billable"
+msgstr "Non fatturabili"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:197
+msgid "Export(.csv)"
+msgstr "Export (.csv)"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:229
+msgid "Break"
+msgstr "Rompere"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:360 View/Elements/analytics_header.ctp:36 View/Elements/header_inner.ctp:322
+msgid "Resource Utilization"
+msgstr "Utilizzo delle risorse"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:360
+msgid "Resource Utilization Report"
+msgstr "L'utilizzo delle risorse Relazione"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:367 View/Elements/footer_inner.ctp:55 View/Elements/header_inner.ctp:197
+msgid "Start Timer"
+msgstr "Avvio timer"
+
+#: Plugin/Timelog/View/LogTimes/time_log.ctp:377 View/Elements/case_details.ctp:659 View/Elements/case_project.ctp:200
+msgid "Log Time"
+msgstr "Tempo Log"
+
+#: View/Archive/ajax_projectall_size.ctp:5;35
+msgid "Using "
+msgstr "utilizzando"
+
+#: View/Archive/ajax_projectall_size.ctp:5
+msgid " Mb of "
+msgstr "Mb di"
+
+#: View/Archive/ajax_projectall_size.ctp:5
+msgid " Mb"
+msgstr "mb"
+
+#: View/Archive/ajax_projectall_size.ctp:35
+msgid " Mb of storage"
+msgstr "MB di memoria"
+
+#: View/Archive/case_list.ctp:27
+msgid "Archived by"
+msgstr "archiviata da"
+
+#: View/Archive/listall.ctp:12 View/Elements/ajax_case_menu.ctp:3 View/Elements/breadcrumb.ctp:22;124 View/Elements/header_inner.ctp:61 View/Users/getting_started.ctp:56
+msgid "Tasks"
+msgstr "Compiti"
+
+#: View/Archive/listall.ctp:79 View/Elements/case_files.ctp:18
+msgid "File Name"
+msgstr "Nome del file"
+
+#: View/Archive/listall.ctp:82 View/Elements/case_files.ctp:21
+msgid "Size"
+msgstr "Dimensione"
+
+#: View/Archive/milestone_list.ctp:36 View/Easycase/ajax_change_milestone.ctp:2 View/Easycase/ajax_exportcsv.ctp:25;69;84;96;107;122;137 View/Easycase/ajax_member_assignto.ctp:6;23 View/Easycase/ajax_status.ctp:25 View/Elements/ajax_case_menu.ctp:34 View/Elements/breadcrumb.ctp:171;202 View/Elements/case_details.ctp:586 View/Helper/CasequeryHelper.php:206 View/Helper/FormatHelper.php:321
+#: View/Projects/project_members.ctp:19
+msgid "All"
+msgstr "Tutti"
+
+#: View/Archive/milestone_list.ctp:41 View/Elements/breadcrumb.ctp:194;243 View/Elements/case_details.ctp:130;142;154;169;179 View/Elements/popup.ctp:1118;1349;1355 View/Users/email_reports.ctp:40
+msgid "None"
+msgstr "Nessuna"
+
+#: View/Archive/milestone_list.ctp:64 View/Elements/popup.ctp:1367 View/Milestone/ajax_new_milestone.ctp:37 View/Milestone/move_task_milestone.ctp:15 View/Projects/importexport.ctp:161
+msgid "Start Date"
+msgstr "Data d'inizio"
+
+#: View/Archive/milestone_list.ctp:65 View/Milestone/ajax_new_milestone.ctp:51 View/Milestone/move_task_milestone.ctp:16 View/Projects/importexport.ctp:161
+msgid "End Date"
+msgstr "Data di fine"
+
+#: View/Archive/milestone_list.ctp:135
+msgid "No Milestone in the Archive"
+msgstr "No Milestone nell'Archivio"
+
+#: View/Easycase/ajax_assignto.ctp:30 View/Easycase/ajax_members.ctp:28
+msgid "Yet to Sign In"
+msgstr "devi ancora accedere"
+
+#: View/Easycase/ajax_assignto.ctp:51
+msgid "more..."
+msgstr "Di Più..."
+
+#: View/Easycase/ajax_assignto.ctp:54
+msgid "hide..."
+msgstr "nascondere..."
+
+#: View/Easycase/ajax_date.ctp:4 View/Easycase/ajax_duedate.ctp:4
+msgid "Anytime"
+msgstr "in qualsiasi momento"
+
+#: View/Easycase/ajax_date.ctp:11 View/Easycase/ajax_duedate.ctp:11 View/Easycase/ajax_exportcsv.ctp:44
+msgid "Past hour"
+msgstr "ora passato"
+
+#: View/Easycase/ajax_date.ctp:17 View/Easycase/ajax_exportcsv.ctp:45
+msgid "Past 24 hours"
+msgstr "Ultime 24 ore"
+
+#: View/Easycase/ajax_date.ctp:23 View/Easycase/ajax_exportcsv.ctp:46
+msgid "Past week"
+msgstr "Settimana scorsa"
+
+#: View/Easycase/ajax_date.ctp:29 View/Easycase/ajax_exportcsv.ctp:47
+msgid "Past month"
+msgstr "Mese scorso"
+
+#: View/Easycase/ajax_date.ctp:35 View/Easycase/ajax_exportcsv.ctp:48
+msgid "Past year"
+msgstr "L'anno scorso"
+
+#: View/Easycase/ajax_date.ctp:45 View/Easycase/ajax_duedate.ctp:47 View/Easycase/ajax_exportcsv.ctp:49 View/Elements/date_filter.ctp:33 View/Elements/duedate_filter.ctp:26
+msgid "Custom range"
+msgstr "limite di personalizzazione"
+
+#: View/Easycase/ajax_duedate.ctp:29
+msgid "Next month"
+msgstr "Il prossimo mese"
+
+#: View/Easycase/ajax_duedate.ctp:35
+msgid "Next year"
+msgstr "L'anno prossimo"
+
+#: View/Easycase/ajax_duedate.ctp:95 View/Easycase/ajax_exportcsv.ctp:214
+msgid "From Date cannot be left blank!"
+msgstr "Dalla data non può essere lasciato vuoto!"
+
+#: View/Easycase/ajax_duedate.ctp:98
+msgid "To Date cannot be left blank!"
+msgstr "Ad oggi non può essere lasciato vuoto!"
+
+#: View/Easycase/ajax_duedate.ctp:101 View/Easycase/ajax_exportcsv.ctp:210
+msgid "From Date cannot exceed To Date!"
+msgstr "Dalla data non può essere superiore ad oggi!"
+
+#: View/Easycase/ajax_exportcsv.ctp:43
+msgid "Any time"
+msgstr "ogni volta"
+
+#: View/Easycase/ajax_exportcsv.ctp:54
+msgid "Range"
+msgstr "Gamma"
+
+#: View/Easycase/ajax_exportcsv.ctp:80 View/Easycase/dashboard.ctp:42
+msgid "Types"
+msgstr "tipi"
+
+#: View/Easycase/ajax_exportcsv.ctp:104 View/Easycase/ajax_member_assignto.ctp:2
+msgid "Members"
+msgstr "Utenti"
+
+#: View/Easycase/ajax_exportcsv.ctp:119 View/Easycase/ajax_member_assignto.ctp:19 View/Elements/case_details.ctp:438 View/Projects/importexport.ctp:94
+msgid "Assign to"
+msgstr "Assegnato a"
+
+#: View/Easycase/ajax_exportcsv.ctp:153
+msgid "Export CSV"
+msgstr "Export CSV"
+
+#: View/Easycase/ajax_exportcsv.ctp:218 View/Milestone/ajax_new_milestone.ctp:132
+msgid "End Date cannot be left blank!"
+msgstr "Data fine non può essere lasciato vuoto!"
+
+#: View/Easycase/ajax_members.ctp:34
+msgid "Last Sign In: "
+msgstr "Ultimo accesso:"
+
+#: View/Easycase/ajax_members.ctp:46 View/Easycase/ajax_recent_case.ctp:28 View/Easycase/ajax_types.ctp:41
+msgid "more"
+msgstr "Di Più"
+
+#: View/Easycase/ajax_members.ctp:49 View/Easycase/ajax_types.ctp:44
+msgid "hide"
+msgstr "nascondere"
+
+#: View/Easycase/ajax_move_task_to_project.ctp:17
+msgid "Already in this Project."
+msgstr "Già in questo progetto."
+
+#: View/Easycase/ajax_move_task_to_project.ctp:27
+msgid "No Projects assigned yet!"
+msgstr "Nessun progetto ancora assegnato!"
+
+#: View/Easycase/ajax_move_task_to_project.ctp:37 View/Easycase/mydashboard.ctp:14;40;62;88;105;119;134;156;171;185
+msgid "Move"
+msgstr "Mossa"
+
+#: View/Easycase/ajax_project_name.ctp:3
+msgid "NA"
+msgstr "N / A"
+
+#: View/Easycase/ajax_recent_case.ctp:26
+msgid "less"
+msgstr "Di meno"
+
+#: View/Easycase/ajax_recent_case.ctp:40
+msgid "No recently viewed"
+msgstr "No visti di recente"
+
+#: View/Easycase/ajax_search.ctp:6
+msgid "Search Results"
+msgstr "risultati di ricerca"
+
+#: View/Easycase/ajax_search.ctp:91
+msgid "No result found"
+msgstr "nessun risultato trovato"
+
+#: View/Easycase/calendar_view.ctp:164
+msgid "Are you sure you want to change the Due Date?"
+msgstr "Sei sicuro che si desidera modificare la data di scadenza?"
+
+#: View/Easycase/dashboard.ctp:12;100
+msgid "Task Filter"
+msgstr "Task Filtro"
+
+#: View/Easycase/dashboard.ctp:21 View/Elements/header_inner.ctp:426 View/Users/email_reports.ctp:86
+msgid "Time"
+msgstr "Tempo"
+
+#: View/Easycase/dashboard.ctp:57 View/Elements/breadcrumb.ctp:29 View/Elements/header_inner.ctp:77 View/Projects/project_members.ctp:17
+msgid "Users"
+msgstr "utenti"
+
+#: View/Easycase/dashboard.ctp:102
+msgid "Group by"
+msgstr "Raggruppa per"
+
+#: View/Easycase/dashboard.ctp:119;140 View/Elements/case_project.ctp:49;50 View/Elements/kanban_task.ctp:199 View/Projects/importexport.ctp:152
+msgid "Assigned to"
+msgstr "Assegnato a"
+
+#: View/Easycase/dashboard.ctp:126
+msgid "Sort by"
+msgstr "Ordina per"
+
+#: View/Easycase/dashboard.ctp:187
+msgid "Tab Settings"
+msgstr "Impostazioni della scheda"
+
+#: View/Easycase/dashboard.ctp:219 View/Elements/case_details.ctp:381 View/Elements/case_project.ctp:287;396;420 View/Elements/case_quick.ctp:219 View/Elements/weekly_usage.ctp:59;71;87;98;110
+msgid "Loading..."
+msgstr "Caricamento in corso..."
+
+#: View/Easycase/dashboard.ctp:227 View/Elements/analytics_header.ctp:66 View/Elements/breadcrumb.ctp:215;257
+msgid "loading..."
+msgstr "caricamento in corso..."
+
+#: View/Easycase/dashboard.ctp:235
+msgid "My"
+msgstr "Mio"
+
+#: View/Easycase/dashboard.ctp:251
+msgid "Loading Tasks..."
+msgstr "Caricamento Task ..."
+
+#: View/Easycase/dashboard.ctp:275;301 View/Projects/manage.ctp:30;32 View/Users/manage.ctp:27;29
+msgid "Active"
+msgstr "Attivo"
+
+#: View/Easycase/mydashboard.ctp:20 View/Elements/case_project.ctp:498 View/Elements/header_inner.ctp:49;54 View/Elements/kanban_task.ctp:382 View/Projects/onbording.ctp:111;164 View/Projects/onbording_createproject.ctp:81;82;119
+msgid "Create Task"
+msgstr "Aufgabe erstellen"
+
+#: View/Easycase/mydashboard.ctp:31;53;79
+msgid "View All"
+msgstr "Guarda tutto"
+
+#: View/Easycase/mydashboard.ctp:43 View/Elements/breadcrumb.ctp:191;239 View/Projects/importexport.ctp:24 View/Projects/onbording.ctp:140 View/Projects/onbording_createproject.ctp:106 View/Projects/task_type.ctp:129
+msgid "Create Project"
+msgstr "Crea progetto"
+
+#: View/Easycase/mydashboard.ctp:68 View/Projects/onbording.ctp:73;147 View/Projects/onbording_createproject.ctp:60;61;113;158 View/Users/getting_started.ctp:35
+msgid "Invite User"
+msgstr "Invita utenti"
+
+#: View/Easycase/mydashboard.ctp:103 View/Elements/weekly_usage.ctp:202
+msgid "Summary"
+msgstr "sommario"
+
+#: View/Easycase/recent_activities.ctp:44
+msgid "No Recent Activities"
+msgstr "Attività recenti"
+
+#: View/Easycase/statistics.ctp:3;28;34
+msgid "Task without Due Date"
+msgstr "Task senza data di scadenza"
+
+#: View/Easycase/statistics.ctp:15
+msgid "Hours spent and still counting"
+msgstr "Ore passate e ancora contando"
+
+#: View/Easycase/statistics.ctp:21
+msgid "Hours spent on"
+msgstr "Ore passate su"
+
+#: View/Easycase/task_download.ctp:78
+msgid "Your download is ready click below to download"
+msgstr "Il download è pronto clicca qui sotto per scaricare"
+
+#: View/Easycase/to_dos.ctp:24
+msgid "Overdue Tasks"
+msgstr "Le attività scadute"
+
+#: View/Easycase/to_dos.ctp:27
+msgid "Upcoming Tasks"
+msgstr "Compiti Prossimi"
+
+#: View/Easycase/to_dos.ctp:37
+msgid "Created on"
+msgstr "Creato"
+
+#: View/Easycase/to_dos.ctp:69
+msgid "No tasks assigned to you, Explore cool features"
+msgstr "Non ci sono compiti assegnati a voi, esplorare le caratteristiche cool"
+
+#: View/Easycase/usage_details.ctp:3
+msgid "of File Storage"
+msgstr "di File Storage"
+
+#: View/Easycase/usage_details.ctp:9 View/Elements/breadcrumb.ctp:25 View/Elements/header_inner.ctp:74 View/Templates/tasks.ctp:10 View/Users/getting_started.ctp:11 View/Users/manage.ctp:270
+msgid "Projects"
+msgstr "progetti"
+
+#: View/Easycase/usage_details.ctp:15
+msgid "Active Users"
+msgstr "utenti attivi"
+
+#: View/Elements/ajax_case_menu.ctp:9
+msgid "Recent"
+msgstr "Recente"
+
+#: View/Elements/ajax_case_menu.ctp:15
+msgid "Assigned To Me"
+msgstr "Assegnato a me"
+
+#: View/Elements/ajax_case_menu.ctp:21
+msgid "Delegated To Others"
+msgstr "Delegato ad altri"
+
+#: View/Elements/ajax_milestonelist.ctp:93;95;419;421 View/Elements/kanban_task.ctp:26
+msgid "Create New Task"
+msgstr "Crea una nuova operazione"
+
+#: View/Elements/ajax_milestonelist.ctp:125;127;450;452 View/Elements/kanban_task.ctp:45;46 View/Elements/manage_milestone.ctp:119
+msgid "Complete"
+msgstr "Completare"
+
+#: View/Elements/ajax_milestonelist.ctp:162;164;485;487 View/Elements/kanban_task.ctp:65;67
+msgid "Late by"
+msgstr "in ritardo di"
+
+#: View/Elements/ajax_milestonelist.ctp:162;170;485;493 View/Elements/kanban_task.ctp:65;73 View/Users/ajax_overdue.ctp:26 View/Users/ajax_upcoming.ctp:26
+msgid "days"
+msgstr "giorni"
+
+#: View/Elements/ajax_milestonelist.ctp:164;172;487;495 View/Elements/kanban_task.ctp:67;75
+msgid "day"
+msgstr "giorno"
+
+#: View/Elements/ajax_milestonelist.ctp:170;172;493;495 View/Elements/kanban_task.ctp:73;75
+msgid "Coming up in"
+msgstr "Venendo in"
+
+#: View/Elements/ajax_milestonelist.ctp:270 View/Elements/case_details.ctp:38 View/Elements/case_project.ctp:333 View/Elements/kanban_task.ctp:253
+msgid "These tasks are waiting on this task."
+msgstr "Queste task  sono in attesa su questo task."
+
+#: View/Elements/ajax_milestonelist.ctp:314 View/Elements/case_details.ctp:412;416 View/Elements/case_project.ctp:23;188 View/Elements/kanban_task.ctp:297;298
+msgid "Resolve"
+msgstr "Risolvere"
+
+#: View/Elements/ajax_milestonelist.ctp:320 View/Elements/case_details.ctp:411;415;419 View/Elements/case_project.ctp:24;194 View/Elements/kanban_task.ctp:303;304
+msgid "Close"
+msgstr "Vicino"
+
+#: View/Elements/ajax_milestonelist.ctp:328 View/Elements/case_project.ctp:214 View/Elements/kanban_task.ctp:312
+msgid "Re-open"
+msgstr "Riaprire"
+
+#: View/Elements/ajax_milestonelist.ctp:329 View/Elements/case_project.ctp:215 View/Elements/kanban_task.ctp:313
+msgid "Reply"
+msgstr "rispondere"
+
+#: View/Elements/ajax_milestonelist.ctp:343 View/Elements/case_project.ctp:230 View/Elements/kanban_task.ctp:327
+msgid "Move to Project"
+msgstr "Spostare a Progetto"
+
+#: View/Elements/ajax_milestonelist.ctp:349 View/Elements/case_project.ctp:244;249
+msgid "Move Task To Milestone"
+msgstr "Spostare task Per Milestone"
+
+#: View/Elements/ajax_milestonelist.ctp:349 View/Elements/case_project.ctp:244 View/Elements/kanban_task.ctp:333
+msgid "Move to Milestone"
+msgstr "Spostare a Milestone"
+
+#: View/Elements/ajax_milestonelist.ctp:357 View/Elements/case_project.ctp:257 View/Elements/kanban_task.ctp:341 View/Elements/manage_milestone.ctp:122
+msgid "Remove Task"
+msgstr "rimuovere Task"
+
+#: View/Elements/ajax_milestonelist.ctp:519
+msgid "No active Milestone"
+msgstr "No Milestone attiva"
+
+#: View/Elements/ajax_milestonelist.ctp:521
+msgid "No Completed Milestone"
+msgstr "No Milestone Completato"
+
+#: View/Elements/ajax_milestonelist.ctp:524 View/Elements/case_quick.ctp:148 View/Elements/no_data.ctp:26
+msgid "No milestone"
+msgstr "Nessun traguardo"
+
+#: View/Elements/ajax_milestonelist.ctp:532;545 View/Elements/manage_milestone.ctp:10 View/Elements/no_data.ctp:51 View/Elements/popup.ctp:456
+msgid "Create Milestone"
+msgstr "creare Milestone"
+
+#: View/Elements/analytics_header.ctp:13 View/Elements/breadcrumb.ctp:151
+msgid "Task Reports"
+msgstr "Task Report"
+
+#: View/Elements/analytics_header.ctp:20
+msgid "Hour Spent"
+msgstr "ora trascorsa"
+
+#: View/Elements/analytics_header.ctp:28 View/Users/email_reports.ctp:15
+msgid "Weekly Usage"
+msgstr "Uso settimanale"
+
+#: View/Elements/analytics_header.ctp:57;59;61
+msgid "Apply"
+msgstr "Applicare"
+
+#: View/Elements/breadcrumb.ctp:2;164;330;348
+msgid "Go Back"
+msgstr "Torna indietro"
+
+#: View/Elements/breadcrumb.ctp:12 View/Elements/header_inner.ctp:58
+msgid "Dashboard"
+msgstr "scrivania"
+
+#: View/Elements/breadcrumb.ctp:26;30
+msgid "Manage"
+msgstr "Gestire"
+
+#: View/Elements/breadcrumb.ctp:33;37;41;45;65 View/Elements/header_inner.ctp:298
+msgid "Personal Settings"
+msgstr "Impostazioni personali"
+
+#: View/Elements/breadcrumb.ctp:34 View/Elements/header_inner.ctp:299 View/Elements/personal_settings.ctp:12;14 View/Elements/user_tab.ctp:6
+msgid "My Profile"
+msgstr "Il mio profilo"
+
+#: View/Elements/breadcrumb.ctp:38 View/Elements/personal_settings.ctp:26;28 View/Elements/user_tab.ctp:13
+msgid "Change Password"
+msgstr "Cambia la password"
+
+#: View/Elements/breadcrumb.ctp:42 View/Elements/header_inner.ctp:300 View/Elements/personal_settings.ctp:34;36 View/Elements/user_tab.ctp:20 View/Users/getting_started.ctp:180
+msgid "Notifications"
+msgstr "notifiche"
+
+#: View/Elements/breadcrumb.ctp:46 View/Elements/header_inner.ctp:301 View/Elements/personal_settings.ctp:41;43 View/Elements/user_tab.ctp:27 View/Users/getting_started.ctp:203
+msgid "Email Reports"
+msgstr "Rapporti e-mail"
+
+#: View/Elements/breadcrumb.ctp:49;53;57;61;69;112;116;120 View/Elements/header_inner.ctp:316
+msgid "Company Settings"
+msgstr "Impostazioni azienda"
+
+#: View/Elements/breadcrumb.ctp:50 View/Elements/company_settings.ctp:4;6 View/Elements/header_inner.ctp:317 View/Elements/user_tab.ctp:41
+msgid "My Company"
+msgstr "La mia compagnia"
+
+#: View/Elements/breadcrumb.ctp:54 View/Elements/company_settings.ctp:11;13 View/Elements/header_inner.ctp:78;318
+msgid "Daily Catch-Up"
+msgstr "Daily Catch-Up"
+
+#: View/Elements/breadcrumb.ctp:62;113 View/Elements/company_settings.ctp:18;20 View/Elements/header_inner.ctp:319 View/Elements/user_tab.ctp:34
+msgid "Import & Export"
+msgstr "Import & Export"
+
+#: View/Elements/breadcrumb.ctp:70;156
+msgid "Cancel Account"
+msgstr "Cancellare account"
+
+#: View/Elements/breadcrumb.ctp:73;77;81;85
+msgid "Account Settings"
+msgstr "Impostazioni dell 'account"
+
+#: View/Elements/breadcrumb.ctp:74;89;93;101;105
+msgid "Subscription"
+msgstr "Sottoscrizione"
+
+#: View/Elements/breadcrumb.ctp:78;97
+msgid "Credit Card"
+msgstr "Carta di credito"
+
+#: View/Elements/breadcrumb.ctp:82
+msgid "Transactions"
+msgstr "Le transazioni"
+
+#: View/Elements/breadcrumb.ctp:86
+msgid "Account Activity"
+msgstr "account Activity"
+
+#: View/Elements/breadcrumb.ctp:90
+msgid "Upgrade Subscription"
+msgstr "abbonamento di aggiornamento"
+
+#: View/Elements/breadcrumb.ctp:94
+msgid "Downgrade Subscription"
+msgstr "downgrade abbonamento"
+
+#: View/Elements/breadcrumb.ctp:98
+msgid "Edit Credit Card"
+msgstr "Modifica carta di credito"
+
+#: View/Elements/breadcrumb.ctp:102
+msgid "Account Limitation"
+msgstr "Limitazione account"
+
+#: View/Elements/breadcrumb.ctp:106
+msgid "Pricing"
+msgstr "Prezzi"
+
+#: View/Elements/breadcrumb.ctp:109;282 View/Elements/case_details.ctp:844
+msgid "Activities"
+msgstr "attività"
+
+#: View/Elements/breadcrumb.ctp:121
+msgid "Daily Progress Reminder"
+msgstr "Promemoria progresso quotidiano"
+
+#: View/Elements/breadcrumb.ctp:127 View/Elements/header_inner.ctp:63;196
+msgid "Time Log"
+msgstr "tempo Log"
+
+#: View/Elements/breadcrumb.ctp:130 View/Elements/header_inner.ctp:100
+msgid "Template"
+msgstr "Modello"
+
+#: View/Elements/breadcrumb.ctp:133;137
+msgid "Templates"
+msgstr "Modelli"
+
+#: View/Elements/breadcrumb.ctp:142;146;150;169;174 View/Elements/header_inner.ctp:91
+msgid "Analytics"
+msgstr "analitica"
+
+#: View/Elements/breadcrumb.ctp:143
+msgid "Bug Reports"
+msgstr "segnalazioni di bug"
+
+#: View/Elements/breadcrumb.ctp:147
+msgid "Hours Spent Reports"
+msgstr "Rapporti ore passate"
+
+#: View/Elements/breadcrumb.ctp:154
+msgid "Account"
+msgstr "account"
+
+#: View/Elements/breadcrumb.ctp:158
+msgid "Delete Account"
+msgstr "Cancellare l'account"
+
+#: View/Elements/breadcrumb.ctp:162 View/Elements/header_inner.ctp:325 View/Elements/new_project.ctp:25 View/Projects/manage.ctp:162
+msgid "Task Status Group"
+msgstr "Task Group Status"
+
+#: View/Elements/breadcrumb.ctp:170
+msgid "Weekly Usage Report"
+msgstr "Rapporto settimanale di utilizzo"
+
+#: View/Elements/breadcrumb.ctp:175
+msgid "Resource Utilizations"
+msgstr "Utilizzi risorse"
+
+#: View/Elements/breadcrumb.ctp:178;181
+msgid "Installation Wizard"
+msgstr "Installazione guidata"
+
+#: View/Elements/breadcrumb.ctp:182
+msgid "Installed Add-ons"
+msgstr "Componenti aggiuntivi installati"
+
+#: View/Elements/breadcrumb.ctp:185 View/Elements/header_inner.ctp:81
+msgid "Miscellaneous"
+msgstr "miscellaneo"
+
+#: View/Elements/breadcrumb.ctp:186 View/Elements/header_inner.ctp:98
+msgid "Gantt Chart"
+msgstr "Diagramma di Gantt"
+
+#: View/Elements/breadcrumb.ctp:220;262 View/Elements/popup.ctp:1163 View/Projects/importexport.ctp:47
+msgid "Find a Project"
+msgstr "Trova un progetto"
+
+#: View/Elements/breadcrumb.ctp:279;288
+msgid "List View"
+msgstr "Visualizzazione elenco"
+
+#: View/Elements/breadcrumb.ctp:280
+msgid "Compact View"
+msgstr "Vista compatta"
+
+#: View/Elements/breadcrumb.ctp:281
+msgid "Kanban View"
+msgstr "Kanban View"
+
+#: View/Elements/breadcrumb.ctp:283;289
+msgid "Calendar"
+msgstr "Calendario"
+
+#: View/Elements/breadcrumb.ctp:319
+msgid "Manage Milestone"
+msgstr "gestire Milestone"
+
+#: View/Elements/breadcrumb.ctp:320
+msgid "Milestone Kanban View"
+msgstr "Milestone Kanban View"
+
+#: View/Elements/case_details.ctp:34 View/Elements/case_project.ctp:329
+msgid "Parents"
+msgstr "genitori"
+
+#: View/Elements/case_details.ctp:46 View/Elements/case_project.ctp:345
+msgid "Dependents"
+msgstr "dipendenti"
+
+#: View/Elements/case_details.ctp:50 View/Elements/case_project.ctp:349 View/Elements/kanban_task.ctp:269
+msgid "Task can't start. Waiting on these task to be completed."
+msgstr "Compito non può iniziare. In attesa di questi compiti da completare."
+
+#: View/Elements/case_details.ctp:122
+msgid "Est. Hour(s)"
+msgstr "Est. Or"
+
+#: View/Elements/case_details.ctp:200
+msgid "Task Progress"
+msgstr "Task Progress"
+
+#: View/Elements/case_details.ctp:270 View/Elements/case_reply.ctp:140
+msgid "View"
+msgstr "vista"
+
+#: View/Elements/case_details.ctp:302;304
+msgid "View remaining"
+msgstr "vista rimanenti"
+
+#: View/Elements/case_details.ctp:302
+msgid "thread"
+msgstr "thread"
+
+#: View/Elements/case_details.ctp:304
+msgid "threads"
+msgstr "discussioni"
+
+#: View/Elements/case_details.ctp:310
+msgid "View latest 5"
+msgstr "Leggi gli ultimi 5"
+
+#: View/Elements/case_details.ctp:318
+msgid "View oldest thread on top"
+msgstr "Visualizza thread più anziano in cima"
+
+#: View/Elements/case_details.ctp:318
+msgid "Newer"
+msgstr "Più nuovo"
+
+#: View/Elements/case_details.ctp:321
+msgid "View newest thread on top"
+msgstr "Visualizza ultimo thread in cima"
+
+#: View/Elements/case_details.ctp:321
+msgid "Older"
+msgstr "Più vecchio"
+
+#: View/Elements/case_details.ctp:368
+msgid "HTML Editor"
+msgstr "Editor HTML"
+
+#: View/Elements/case_details.ctp:369
+msgid "Text Editor"
+msgstr "Editor di testo"
+
+#: View/Elements/case_details.ctp:375
+msgid "Write your Reply"
+msgstr "Scrivere la risposta"
+
+#: View/Elements/case_details.ctp:495;507
+msgid "0"
+msgstr "0"
+
+#: View/Elements/case_details.ctp:496;508
+msgid "10"
+msgstr "10"
+
+#: View/Elements/case_details.ctp:497;509
+msgid "20"
+msgstr "20"
+
+#: View/Elements/case_details.ctp:498;510
+msgid "30"
+msgstr "30"
+
+#: View/Elements/case_details.ctp:499;511
+msgid "40"
+msgstr "40"
+
+#: View/Elements/case_details.ctp:500;512
+msgid "50"
+msgstr "50"
+
+#: View/Elements/case_details.ctp:501;513
+msgid "60"
+msgstr "60"
+
+#: View/Elements/case_details.ctp:502;514
+msgid "70"
+msgstr "70"
+
+#: View/Elements/case_details.ctp:503;515
+msgid "80"
+msgstr "80"
+
+#: View/Elements/case_details.ctp:504;516
+msgid "90"
+msgstr "90"
+
+#: View/Elements/case_details.ctp:505;517
+msgid "100"
+msgstr "100"
+
+#: View/Elements/case_details.ctp:529 View/Elements/case_quick.ctp:253
+msgid "Attachment(s)"
+msgstr "Allegato "
+
+#: View/Elements/case_details.ctp:533 View/Elements/case_quick.ctp:266
+msgid "Select multiple files to upload..."
+msgstr "Selezionare più file da caricare ..."
+
+#: View/Elements/case_details.ctp:535 View/Elements/case_quick.ctp:268
+msgid "Drag and Drop files to Upload"
+msgstr "Trascinare i file di Upload"
+
+#: View/Elements/case_details.ctp:536 View/Elements/case_quick.ctp:269
+msgid "Max size"
+msgstr "dimensione massima"
+
+#: View/Elements/case_details.ctp:586 View/Elements/popup.ctp:1320
+msgid "Notify via Email"
+msgstr "Notifica via e-mail"
+
+#: View/Elements/case_details.ctp:623
+msgid "Do not show this reply to the client"
+msgstr "Non mostrare questa risposta al cliente"
+
+#: View/Elements/case_details.ctp:631 View/Elements/popup.ctp:660;1408
+msgid "Post"
+msgstr "Inviare"
+
+#: View/Elements/case_details.ctp:723 View/Elements/case_reply.ctp:81
+msgid "Assigned To"
+msgstr "Assegnato a"
+
+#: View/Elements/case_details.ctp:764 View/Elements/case_project.ctp:429 View/Elements/popup.ctp:1255 View/Helper/DatetimeHelper.php:68
+msgid "Tomorrow"
+msgstr "Domani"
+
+#: View/Elements/case_details.ctp:765 View/Elements/case_project.ctp:430 View/Elements/popup.ctp:1254
+msgid "Next Monday"
+msgstr "Lunedi prossimo"
+
+#: View/Elements/case_details.ctp:766 View/Elements/case_project.ctp:431 View/Elements/popup.ctp:1256
+msgid "This Friday"
+msgstr "Questo venerdì"
+
+#: View/Elements/case_details.ctp:788
+msgid "Files in this Task"
+msgstr "I file in questo compito"
+
+#: View/Elements/case_details.ctp:829
+msgid "More"
+msgstr "Di Più"
+
+#: View/Elements/case_details.ctp:834
+msgid "No Files in this Task"
+msgstr "Nessun file in questo compito"
+
+#: View/Elements/case_details.ctp:849
+msgid "Last Updated"
+msgstr "Zuletzt aktualisiert"
+
+#: View/Elements/case_details.ctp:864
+msgid "People Involved"
+msgstr "Persone coinvolte"
+
+#: View/Elements/case_files.ctp:4 View/Projects/manage.ctp:21 View/Users/manage.ctp:20
+msgid "Search Results for"
+msgstr "Cerca risultati per"
+
+#: View/Elements/case_files.ctp:6 View/Projects/manage.ctp:22 View/Users/manage.ctp:21
+msgid "Reset"
+msgstr "Reset"
+
+#: View/Elements/case_files.ctp:82
+msgid "Uploaded by"
+msgstr "caricato da"
+
+#: View/Elements/case_project.ctp:27
+msgid "Move to project"
+msgstr "Spostare al progetto"
+
+#: View/Elements/case_project.ctp:204
+msgid "Start timer"
+msgstr "avviare il timer"
+
+#: View/Elements/case_project.ctp:249
+msgid "Remove from"
+msgstr "Rimuovere da"
+
+#: View/Elements/case_project.ctp:366
+msgid "by"
+msgstr "di"
+
+#: View/Elements/case_project.ctp:454
+msgid "No Tasks"
+msgstr "Nessuna attività"
+
+#: View/Elements/case_project.ctp:460
+msgid "No tasks for me"
+msgstr "Nessuna task per me"
+
+#: View/Elements/case_project.ctp:466
+msgid "No tasks as overdue"
+msgstr "Non ci sono task in ritardo"
+
+#: View/Elements/case_project.ctp:472
+msgid "No tasks delegated"
+msgstr "Non ci sono task delegati"
+
+#: View/Elements/case_project.ctp:478
+msgid "No high priority tasks"
+msgstr "Nessuna task ad alta priorità"
+
+#: View/Elements/case_quick.ctp:129
+msgid "Add New"
+msgstr "Aggiungere nuova"
+
+#: View/Elements/case_quick.ctp:216
+msgid "Enter Description..."
+msgstr "Inserisci Descrizione ..."
+
+#: View/Elements/case_quick.ctp:232
+msgid "Estimated Hour(s)"
+msgstr "Ore stimate"
+
+#: View/Elements/case_quick.ctp:263
+msgid "No files setelcted"
+msgstr "Nessun file selezionato"
+
+#: View/Elements/case_quick.ctp:278
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: View/Elements/case_quick.ctp:286
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: View/Elements/company_settings.ctp:34;38 View/Elements/header_inner.ctp:328
+msgid "API"
+msgstr "API"
+
+#: View/Elements/footer_inner.ctp:38
+msgid "Select a Project"
+msgstr "Selezionare un progetto"
+
+#: View/Elements/footer_inner.ctp:41
+msgid "Select a Task"
+msgstr "Selezionare un task"
+
+#: View/Elements/footer_inner.ctp:49
+msgid "Is Billable"
+msgstr "è fatturabile"
+
+#: View/Elements/footer_inner.ctp:69
+msgid "Start Conversation"
+msgstr "Inizia Conversazione"
+
+#: View/Elements/header_inner.ctp:32
+msgid "Toggle navigation"
+msgstr "navigazione Toggle"
+
+#: View/Elements/header_inner.ctp:54
+msgid "Please create a Project to add Task under that Project"
+msgstr "Si prega di creare un progetto per aggiungere attività ai sensi di tale progetto"
+
+#: View/Elements/header_inner.ctp:72
+msgid "Milestones"
+msgstr "Milestones"
+
+#: View/Elements/header_inner.ctp:103
+msgid "Recently viewed"
+msgstr "Visualizzato recentemente"
+
+#: View/Elements/header_inner.ctp:127
+msgid "Search Tasks"
+msgstr "ricerca Task"
+
+#: View/Elements/header_inner.ctp:207 View/Elements/popup.ctp:778;867
+msgid "Project Template"
+msgstr "Template progetto"
+
+#: View/Elements/header_inner.ctp:208 View/Elements/popup.ctp:688
+msgid "Task Template"
+msgstr "Task Template"
+
+#: View/Elements/header_inner.ctp:249
+msgid "This Account is managed by "
+msgstr "Questo account è gestito da"
+
+#: View/Elements/header_inner.ctp:256
+msgid "Projects: "
+msgstr "progetti:"
+
+#: View/Elements/header_inner.ctp:257
+msgid "Users: "
+msgstr "utenti:"
+
+#: View/Elements/header_inner.ctp:258
+msgid "Storage: "
+msgstr "Storage:"
+
+#: View/Elements/header_inner.ctp:302
+msgid "Help & Support"
+msgstr "Aiuto e Supporto"
+
+#: View/Elements/header_inner.ctp:303
+msgid "Getting Started"
+msgstr "Iniziare"
+
+#: View/Elements/header_inner.ctp:305 View/Elements/personal_settings.ctp:49;51
+msgid "Language Settings"
+msgstr "Impostazioni della lingua"
+
+#: View/Elements/header_inner.ctp:307
+msgid "Sign Out"
+msgstr "Disconnessione"
+
+#: View/Elements/help_tabbs.ctp:10
+msgid "General Questions"
+msgstr "Domande generali"
+
+#: View/Elements/help_tabbs.ctp:17
+msgid "Features"
+msgstr "Caratteristiche"
+
+#: View/Elements/help_tabbs.ctp:24
+msgid "How it works?"
+msgstr "Come funziona?"
+
+#: View/Elements/kanban_task.ctp:177;178
+msgid "Updated"
+msgstr "aggiornato"
+
+#: View/Elements/manage_milestone.ctp:70
+msgid "out of"
+msgstr "fuori da"
+
+#: View/Elements/manage_milestone.ctp:70
+msgid "task are closed"
+msgstr "Task sono chiusi"
+
+#: View/Elements/manage_milestone.ctp:96
+msgid "Last activity on"
+msgstr "Ultima attività sul"
+
+#: View/Elements/manage_milestone.ctp:152
+msgid "Not Found"
+msgstr "Non trovato"
+
+#: View/Elements/new_customer.ctp:14
+msgid "First Name"
+msgstr "Nome"
+
+#: View/Elements/new_customer.ctp:15
+msgid "Last Name"
+msgstr "Cognome"
+
+#: View/Elements/new_customer.ctp:27
+msgid "Select Currency"
+msgstr "Seleziona la valuta"
+
+#: View/Elements/new_customer.ctp:37
+msgid "Street"
+msgstr "strada"
+
+#: View/Elements/new_customer.ctp:43
+msgid "City"
+msgstr "Città"
+
+#: View/Elements/new_customer.ctp:44
+msgid "State"
+msgstr "Stato"
+
+#: View/Elements/new_customer.ctp:52
+msgid "Country"
+msgstr "Nazione"
+
+#: View/Elements/new_customer.ctp:53
+msgid "Postal Code"
+msgstr "codice postale"
+
+#: View/Elements/new_customer.ctp:59
+msgid "Phone Number"
+msgstr "Numero di telefono"
+
+#: View/Elements/new_customer.ctp:68
+msgid "Make Inactive"
+msgstr "rendere inattiva"
+
+#: View/Elements/new_customer.ctp:73
+msgid "Details"
+msgstr "Dettagli"
+
+#: View/Elements/new_customer.ctp:81 View/Elements/new_project.ctp:141 View/Elements/popup.ctp:716;800;1100 View/Users/getting_started.ctp:59
+msgid "Create"
+msgstr "Creare"
+
+#: View/Elements/new_project.ctp:9
+msgid "My Project"
+msgstr "Il mio progetto"
+
+#: View/Elements/new_project.ctp:14 View/Elements/popup.ctp:53 View/Projects/user_listing.ctp:14 View/Users/add_project.ctp:15 View/Users/profile.ctp:19 View/Users/project_listing.ctp:12
+msgid "Short Name"
+msgstr "Nome corto"
+
+#: View/Elements/new_project.ctp:71
+msgid "Add new Users"
+msgstr "Aggiungere nuovi utenti"
+
+#: View/Elements/new_project.ctp:73
+msgid "Add Users"
+msgstr "Aggiungi utenti"
+
+#: View/Elements/new_project.ctp:86
+msgid "owner"
+msgstr "proprietario"
+
+#: View/Elements/new_project.ctp:88
+msgid "admin"
+msgstr "Admin"
+
+#: View/Elements/new_project.ctp:94 View/Elements/new_user.ctp:25
+msgid "Use comma to separate multiple email ids"
+msgstr "Utilizzare virgola per separare più ID e-mail"
+
+#: View/Elements/new_project.ctp:123;129
+msgid "Sorry, Project Limit Exceeded!"
+msgstr "Siamo spiacenti, limite di progetti superato!"
+
+#: View/Elements/new_project.ctp:125
+msgid "Please contact your account owner to create more projects"
+msgstr "Si prega di contattare il proprietario dell'account per creare più progetti"
+
+#: View/Elements/new_project.ctp:131 View/Elements/new_user.ctp:68
+msgid "Upgrade"
+msgstr "aggiornamento"
+
+#: View/Elements/new_project.ctp:131
+msgid "you account to create more projects"
+msgstr "mostra come creare nuovi progetti"
+
+#: View/Elements/new_project.ctp:204
+msgid "Unable to update project template"
+msgstr "Impossibile aggiornare template del progetto"
+
+#: View/Elements/new_project.ctp:212
+msgid "Please select one template"
+msgstr "Si prega di selezionare un template"
+
+#: View/Elements/new_user.ctp:20 View/Users/forgotpassword.ctp:43 View/Users/login.ctp:238;239
+msgid "Email ID"
+msgstr "E-Mail ID"
+
+#: View/Elements/new_user.ctp:39
+msgid "Project to be"
+msgstr "Progetto da"
+
+#: View/Elements/new_user.ctp:60;66
+msgid "Sorry, User Limit Exceeded!"
+msgstr "Siamo spiacenti, limite di utenti superato!"
+
+#: View/Elements/new_user.ctp:68
+msgid "your account to create more users"
+msgstr "il tuo account per creare più utenti"
+
+#: View/Elements/new_workflow.ctp:3
+msgid "Edit Task Status Group  Name"
+msgstr "Modifica lo stato del Task group name"
+
+#: View/Elements/new_workflow.ctp:4
+msgid "Enter Task Status Group name"
+msgstr "Inserire stato del Task group name"
+
+#: View/Elements/new_workflow.ctp:14
+msgid "Enter status name"
+msgstr "Inserire il nome dello stato"
+
+#: View/Elements/new_workflow.ctp:18
+msgid "click button to save color"
+msgstr "fare clic sul pulsante per salvare il colore"
+
+#: View/Elements/new_workflow.ctp:31
+msgid "Add Status"
+msgstr "Aggiungere Stato"
+
+#: View/Elements/no_data.ctp:4
+msgid "No tasks have been archived yet on this project"
+msgstr "Nessuna attività è stata ancora archiviata su questo progetto"
+
+#: View/Elements/no_data.ctp:5
+msgid "All archived tasks of this project will appear here"
+msgstr "Tutte le attività archiviate di questo progetto appariranno qui"
+
+#: View/Elements/no_data.ctp:8
+msgid "No files have been archived yet on this project"
+msgstr "Nessun file è stato ancora archiviato su questo progetto"
+
+#: View/Elements/no_data.ctp:9
+msgid "All archived files of this project will appear here"
+msgstr "Tutti i file archiviati di questo progetto appariranno qui"
+
+#: View/Elements/no_data.ctp:12
+msgid "No task activities on this project"
+msgstr "Nessuna attività Task su questo progetto"
+
+#: View/Elements/no_data.ctp:13
+msgid "All activities of this project will appear here"
+msgstr "Tutte le attività di questo progetto verranno visualizzate qui"
+
+#: View/Elements/no_data.ctp:16
+msgid "No files have been shared or uploaded on this project"
+msgstr "Nessun file è stato condiviso o caricato su questo progetto"
+
+#: View/Elements/no_data.ctp:17
+msgid "All files shared on this project will appear here"
+msgstr "Tutti i file condivisi su questo progetto appariranno qui"
+
+#: View/Elements/no_data.ctp:20
+msgid "No files found"
+msgstr "Nessun file trovato"
+
+#: View/Elements/no_data.ctp:31
+msgid "No Overdue Task on this project"
+msgstr "Nessun Task in ritardo su questo progetto"
+
+#: View/Elements/no_data.ctp:33
+msgid "No High Priority Task have been created on this project"
+msgstr "Nessun task ad alta priorità è stato creato su questo progetto"
+
+#: View/Elements/no_data.ctp:35
+msgid "No Task for me on this project"
+msgstr "Nessun task per me su questo progetto"
+
+#: View/Elements/no_data.ctp:37
+msgid "No Task delegated on this project"
+msgstr "Nessun task delegato a questo progetto"
+
+#: View/Elements/no_data.ctp:39
+msgid "No Task have been created on this project"
+msgstr "Nessun task è stato creato su questo progetto"
+
+#: View/Elements/no_data.ctp:41
+msgid "All Task created on this project will appear here"
+msgstr "Tutte i task creati su questo progetto appariranno qui"
+
+#: View/Elements/personal_settings.ctp:20;22
+msgid "Set Password"
+msgstr "Impostare la password"
+
+#: View/Elements/popup.ctp:11;382 View/Projects/manage.ctp:301
+msgid "Create New Project"
+msgstr "Crea nuovo progetto"
+
+#: View/Elements/popup.ctp:35 View/Projects/task_type.ctp:8;10
+msgid "New Task Type"
+msgstr "Nuovo tipo di attività"
+
+#: View/Elements/popup.ctp:80
+msgid "Log time"
+msgstr "tempo log"
+
+#: View/Elements/popup.ctp:93
+msgid "Choose an existing task"
+msgstr "Scegli un'attività esistente"
+
+#: View/Elements/popup.ctp:106
+msgid "Need help getting started?"
+msgstr "Hai bisogno di aiuto per iniziare?"
+
+#: View/Elements/popup.ctp:112
+msgid "If you get stuck or need help with anything we are here for you. Just"
+msgstr "Se ti trovi in ​​difficoltà o bisogno di aiuto con qualsiasi cosa noi siamo qui per voi. Appena"
+
+#: View/Elements/popup.ctp:112
+msgid "send us a line"
+msgstr "inviateci una linea"
+
+#: View/Elements/popup.ctp:112
+msgid "we will get back to you as soon as possible or find your answer at our"
+msgstr "vi risponderemo al più presto possibile o troverai la risposta al nostro"
+
+#: View/Elements/popup.ctp:112
+msgid "help desk"
+msgstr "Helpdesk"
+
+#: View/Elements/popup.ctp:113
+msgid "Ok, got it!"
+msgstr "Ok capito!"
+
+#: View/Elements/popup.ctp:139;321
+msgid "Invite New User"
+msgstr "Invita nuovo utente"
+
+#: View/Elements/popup.ctp:152
+msgid "Make sure that you have done the below required changes in"
+msgstr "Assicurarsi di aver fatto le modifiche di seguito richiesti"
+
+#: View/Elements/popup.ctp:154
+msgid "You have provided the details of <b>SMTP</b> email sending options in"
+msgstr "Lei ha fornito i dettagli di <b> SMTP </ b> e-mail opzioni di invio a"
+
+#: View/Elements/popup.ctp:155
+msgid "You have updated FROM_EMAIL_NOTIFY and SUPPORT_EMAIL in"
+msgstr "Hai aggiornato FROM_EMAIL_NOTIFY e SUPPORT_EMAIL in"
+
+#: View/Elements/popup.ctp:169 View/Projects/importexport.ctp:313
+msgid "Export Tasks to CSV"
+msgstr "Esporta task in CSV"
+
+#: View/Elements/popup.ctp:181
+msgid "Cancel Subscription Information"
+msgstr "Annulla iscrizione Informazioni"
+
+#: View/Elements/popup.ctp:194 View/Users/profile.ctp:55
+msgid "Profile Image"
+msgstr "Profilo Immagine"
+
+#: View/Elements/popup.ctp:204
+msgid "Browse"
+msgstr "Navigare"
+
+#: View/Elements/popup.ctp:205
+msgid "Select your profile image..."
+msgstr "Seleziona la tua immagine del profilo ..."
+
+#: View/Elements/popup.ctp:212
+msgid "Drag and set the box on the area you want to crop."
+msgstr "Trascinare e impostare la casella sull'area da ritagliare."
+
+#: View/Elements/popup.ctp:230;235
+msgid "Confirm"
+msgstr "Confermare"
+
+#: View/Elements/popup.ctp:250
+msgid "Select tabs to enable"
+msgstr "Selezionare le schede per consentire"
+
+#: View/Elements/popup.ctp:276 View/Projects/manage.ctp:95;99
+msgid "Remove User"
+msgstr "rimuovere l'utente"
+
+#: View/Elements/popup.ctp:284;336 View/Projects/onbording.ctp:217 View/Projects/onbording_createproject.ctp:168
+msgid "Enter User Name"
+msgstr "Inserire username"
+
+#: View/Elements/popup.ctp:287;347
+msgid "Loading users..."
+msgstr "Caricamento utenti ..."
+
+#: View/Elements/popup.ctp:310 View/Projects/manage.ctp:92 View/Projects/onbording.ctp:195 View/Projects/onbording_createproject.ctp:145
+msgid "Add User"
+msgstr "Benutzer hinzufügen"
+
+#: View/Elements/popup.ctp:350;513 View/Projects/onbording.ctp:240 View/Projects/onbording_createproject.ctp:191
+msgid "Add & Continue"
+msgstr "Aggiungi e continua"
+
+#: View/Elements/popup.ctp:373 View/Users/manage.ctp:104;110;159
+msgid "Assign Project"
+msgstr "Assegnazione del progetto"
+
+#: View/Elements/popup.ctp:395;431
+msgid "Enter Project Name"
+msgstr "Inserisci Nome del progetto"
+
+#: View/Elements/popup.ctp:399;407;434
+msgid "Loading projects..."
+msgstr "Caricamento progetti ..."
+
+#: View/Elements/popup.ctp:409
+msgid "Assign"
+msgstr "Assegnare"
+
+#: View/Elements/popup.ctp:410
+msgid "Assign & Continue"
+msgstr "Assegna e continua"
+
+#: View/Elements/popup.ctp:422 View/Users/manage.ctp:106;115;129;138;163
+msgid "Remove Project"
+msgstr "rimuovere Progetto"
+
+#: View/Elements/popup.ctp:470
+msgid "Add Tasks"
+msgstr "aggiungere attività"
+
+#: View/Elements/popup.ctp:477
+msgid "Switch Milestone"
+msgstr "interruttore Milestone"
+
+#: View/Elements/popup.ctp:502;593
+msgid "Loading tasks..."
+msgstr "Caricamento attività ..."
+
+#: View/Elements/popup.ctp:530
+msgid "Move task to milestone"
+msgstr "Spostare task Milestone"
+
+#: View/Elements/popup.ctp:546
+msgid "Move task"
+msgstr "muovi task"
+
+#: View/Elements/popup.ctp:560
+msgid "Remove Tasks"
+msgstr "rimuovere task"
+
+#: View/Elements/popup.ctp:626
+msgid "Feedback"
+msgstr "Risposta"
+
+#: View/Elements/popup.ctp:788;878
+msgid "Template Name"
+msgstr "Nome template"
+
+#: View/Elements/popup.ctp:977
+msgid "New Task Status"
+msgstr "nuovo stato del task"
+
+#: View/Elements/popup.ctp:995
+msgid "Color"
+msgstr "Colore"
+
+#: View/Elements/popup.ctp:1004
+msgid "Loader"
+msgstr "caricatore"
+
+#: View/Elements/popup.ctp:1188
+msgid "Add a task here & hit enter...."
+msgstr "Aggiungere un task  qui e premi invio ...."
+
+#: View/Elements/popup.ctp:1295
+msgid "Estd. Hour(s)"
+msgstr "Estd. Std)"
+
+#: View/Elements/popup.ctp:1299
+msgid "You can enter time as 1.5 (that  mean 1 hour and 30 minutes)"
+msgstr "È possibile inserire tempo come 1.5 (che significa 1 ora e 30 minuti)"
+
+#: View/Elements/popup.ctp:1322
+msgid "ALL"
+msgstr "TUTTI"
+
+#: View/Elements/popup.ctp:1331
+msgid "Do not show this task to the client"
+msgstr "Non mostrare più questo task al cliente"
+
+#: View/Elements/popup.ctp:1339
+msgid "Recurring Task"
+msgstr "un task ricorrente"
+
+#: View/Elements/popup.ctp:1339
+msgid "Repeat"
+msgstr "Ripetere"
+
+#: View/Elements/popup.ctp:1344
+msgid "Repeat Type"
+msgstr "Tipo di ripetizione"
+
+#: View/Elements/popup.ctp:1356 View/Users/email_reports.ctp:34
+msgid "Weekly"
+msgstr "settimanalmente"
+
+#: View/Elements/popup.ctp:1357 View/Users/email_reports.ctp:37
+msgid "Monthly"
+msgstr "Mensile"
+
+#: View/Elements/popup.ctp:1358
+msgid "Quarterly"
+msgstr "Trimestrale"
+
+#: View/Elements/popup.ctp:1359
+msgid "Yearly"
+msgstr "Annuale"
+
+#: View/Elements/popup.ctp:1367
+msgid "Starts"
+msgstr "inizia"
+
+#: View/Elements/popup.ctp:1374
+msgid "Ends after"
+msgstr "termina dopo"
+
+#: View/Elements/popup.ctp:1374
+msgid "occurrences"
+msgstr "occorrenze"
+
+#: View/Elements/popup.ctp:1377
+msgid "Ends on"
+msgstr "Termina su"
+
+#: View/Elements/weekly_usage.ctp:35
+msgid "Statistics"
+msgstr "statistica"
+
+#: View/Elements/weekly_usage.ctp:35
+msgid "SO FAR THIS WEEK"
+msgstr "Finora questa settimana"
+
+#: View/Elements/weekly_usage.ctp:40
+msgid "Logged in User"
+msgstr "Utente connesso"
+
+#: View/Elements/weekly_usage.ctp:44
+msgid "of Total"
+msgstr "di Total"
+
+#: View/Elements/weekly_usage.ctp:46
+msgid "Last Week to Date"
+msgstr "La scorsa settimana per Data"
+
+#: View/Elements/weekly_usage.ctp:55
+msgid "Tasks Created"
+msgstr "task create"
+
+#: View/Elements/weekly_usage.ctp:67
+msgid "Tasks Updated"
+msgstr "task aggiornate"
+
+#: View/Elements/weekly_usage.ctp:84
+msgid "Tasks Closed"
+msgstr "task Chiuso"
+
+#: View/Elements/weekly_usage.ctp:95
+msgid "spent"
+msgstr "speso"
+
+#: View/Elements/weekly_usage.ctp:106
+msgid "Storage Used"
+msgstr "Stoccaggio"
+
+#: View/Elements/weekly_usage.ctp:118
+msgid "Task Status of the Week"
+msgstr "Stato attività della settimana"
+
+#: View/Elements/weekly_usage.ctp:121
+msgid "Task Created"
+msgstr "task creata"
+
+#: View/Elements/weekly_usage.ctp:122
+msgid "Task Updated"
+msgstr "Task aggiornato"
+
+#: View/Elements/weekly_usage.ctp:155
+msgid "Project Status of the Week"
+msgstr "Stato del progetto della settimana"
+
+#: View/Elements/weekly_usage.ctp:158
+msgid "Closed/Total Tasks"
+msgstr "Chiuso / Attività totali"
+
+#: View/Elements/weekly_usage.ctp:160
+msgid "Usage"
+msgstr "uso"
+
+#: View/Elements/weekly_usage.ctp:200
+msgid "No Project Status on last week"
+msgstr "No Stato Progetto scorsa settimana"
+
+#: View/Elements/weekly_usage.ctp:206
+msgid "Out of"
+msgstr "Fuori da"
+
+#: View/Elements/weekly_usage.ctp:206
+msgid "User has not logged in to the system since last week"
+msgstr "L'utente non ha effettuato l'accesso al sistema dalla scorsa settimana"
+
+#: View/Elements/weekly_usage.ctp:209
+msgid "tasks created and"
+msgstr "le attività create e"
+
+#: View/Elements/weekly_usage.ctp:209
+msgid "updated on last week"
+msgstr "aggiornato settimana scorsa"
+
+#: View/Elements/weekly_usage.ctp:212
+msgid "storage used on all projects"
+msgstr "memorizzazione utilizzato su tutti i progetti"
+
+#: View/Errors/error400.ctp:42
+msgid "The page you requested was not found"
+msgstr "La pagina richiesta non è stata trovata"
+
+#: View/Errors/error400.ctp:47
+msgid "You may have clicked an expired link or mistyped the address.<br/>Some web addresses are case sensitive."
+msgstr "Potreste aver cliccato un link di scaduto o digitato in modo errato l'indirizzo. <br/> Alcuni indirizzi web sono maiuscole e minuscole."
+
+#: View/Errors/error500.ctp:41 View/Errors/missing_connection.ctp:42
+msgid "There is some Problem"
+msgstr "C'è qualche problema"
+
+#: View/Errors/error500.ctp:46
+msgid "Please check you database connection in `app/Config/database.php` or may be some syntax error in your code"
+msgstr "Si prega di verificare la vostra connessione al database in `app / config / database.php` o può essere qualche errore di sintassi nel codice"
+
+#: View/Errors/missing_connection.ctp:47
+msgid "Please check you database connection in `app/Config/database.php` or may be some syntax error"
+msgstr "Si prega di verificare la vostra connessione al database in `app / config / database.php` o può essere qualche errore di sintassi"
+
+#: View/Errors/missing_table.ctp:42
+msgid "Database Error"
+msgstr "Errore di Database"
+
+#: View/Errors/missing_table.ctp:47
+msgid "Database table is missing or there is some problem with your database or query"
+msgstr "manca la tabella del database o c'è qualche problema con il database o la query"
+
+#: View/Helper/DatetimeHelper.php:45;368
+msgid "Today at "
+msgstr "Oggi alle"
+
+#: View/Helper/DatetimeHelper.php:49;364
+msgid "Y'day at "
+msgstr "ieri alle"
+
+#: View/Helper/DatetimeHelper.php:65;327
+msgid "Y'day"
+msgstr "ieri"
+
+#: View/Helper/DatetimeHelper.php:184;187
+msgid "just now"
+msgstr "proprio adesso"
+
+#: View/Helper/DatetimeHelper.php:192
+msgid " mins ago"
+msgstr "minuti fa"
+
+#: View/Helper/DatetimeHelper.php:194
+msgid " min ago"
+msgstr "minuti fa"
+
+#: View/Helper/DatetimeHelper.php:199
+msgid " hours ago"
+msgstr "ore fa"
+
+#: View/Helper/DatetimeHelper.php:201
+msgid " hour ago"
+msgstr "un'ora fa"
+
+#: View/Helper/DatetimeHelper.php:228;272
+msgid "ago"
+msgstr "fa"
+
+#: View/Helper/DatetimeHelper.php:231;275
+msgid "to go"
+msgstr "andare"
+
+#: View/Helper/DatetimeHelper.php:372
+msgid " at "
+msgstr "a"
+
+#: View/Helper/FormatHelper.php:633
+msgid "As a"
+msgstr "Come un"
+
+#: View/Helper/FormatHelper.php:633
+msgid "account"
+msgstr "account"
+
+#: View/Helper/FormatHelper.php:643
+msgid "Company account has been confirmed by"
+msgstr "account aziendale è stato confermato da"
+
+#: View/Helper/FormatHelper.php:643
+msgid "as a"
+msgstr "come un"
+
+#: View/Helper/FormatHelper.php:643
+msgid "user"
+msgstr "utente"
+
+#: View/Helper/FormatHelper.php:646;652;655
+msgid "With email"
+msgstr "con la posta elettronica"
+
+#: View/Helper/FormatHelper.php:649;658
+msgid "With"
+msgstr "Con"
+
+#: View/Helper/FormatHelper.php:673
+msgid "updated during"
+msgstr "aggiornato durante"
+
+#: View/Install/index.ctp:2
+msgid "Welcome to OrangeScrum Community version Installation wizard"
+msgstr "Benvenuti alla procedura guidata di installazione versione OrangeScrum Community"
+
+#: View/Install/index.ctp:7
+msgid "Make sure to copy the downloaded zip file to the \"app/webroot\" folder before starting installation. Please ignore if it is already done."
+msgstr "Assicurarsi di copiare il file zip scaricato nella cartella \\ \"app / webroot \" prima di iniziare l'installazione. Si prega di ignorare se è già fatto."
+
+#: View/Install/index.ctp:13
+msgid "Please click on start button to start"
+msgstr "Cliccate sul pulsante Start per avviare"
+
+#: View/Install/index.ctp:13
+msgid "add-on installation procedure."
+msgstr "add-on procedura di installazione."
+
+#: View/Install/index.ctp:48
+msgid "Verify"
+msgstr "✓ Verifica"
+
+#: View/Install/index.ctp:58
+msgid "Finish"
+msgstr "finire"
+
+#: View/Install/index.ctp:63
+msgid "Please provide a valid add-on name in the URL as shown in the installation guide to install that add-on."
+msgstr "Si prega di fornire un valido nome add-on  nell'URL come indicato nella guida di installazione per installare il componente aggiuntivo."
+
+#: View/Install/index.ctp:64
+msgid "Go to Installation guide."
+msgstr "Vai alla Guida di installazione."
+
+#: View/Milestone/add_case.ctp:110 View/Milestone/remove_cases_from_milestone.ctp:106
+msgid "No task(s) available."
+msgstr "Nessun compito disponibile."
+
+#: View/Milestone/ajax_new_milestone.ctp:120
+msgid "Project cannot be left blank!"
+msgstr "Progetto non può essere lasciato vuoto!"
+
+#: View/Milestone/ajax_new_milestone.ctp:124
+msgid "Title cannot be left blank!"
+msgstr "Il titolo non può essere lasciato vuoto!"
+
+#: View/Milestone/ajax_new_milestone.ctp:128
+msgid "Start Date cannot be left blank!"
+msgstr "Data di inizio non può essere lasciato vuoto!"
+
+#: View/Milestone/ajax_new_milestone.ctp:136
+msgid "Start Date cannot exceed End Date!"
+msgstr "La data iniziale non può essere superiore dalla data finale!"
+
+#: View/Milestone/move_task_milestone.ctp:51
+msgid "No Milestone(s) available."
+msgstr "Nessuna Milestone  disponibile."
+
+#: View/Projects/add_user.ctp:45;114 View/Projects/user_listing.ctp:55 View/Users/manage.ctp:71
+msgid "Owner"
+msgstr "Proprietario"
+
+#: View/Projects/add_user.ctp:48;117 View/Projects/user_listing.ctp:58 View/Users/manage.ctp:74
+msgid "Admin"
+msgstr "Admin"
+
+#: View/Projects/add_user.ctp:70;136
+msgid "No user(s) available."
+msgstr "Nessun utente  disponibile."
+
+#: View/Projects/add_user.ctp:83
+msgid "User(s) in this"
+msgstr "Utente/i in questo"
+
+#: View/Projects/ajax_daily_update.ctp:30
+msgid "Cancel Daily Progress Reminder"
+msgstr "Annulla quotidiano promemoria progressi"
+
+#: View/Projects/ajax_view_temp_cases.ctp:52
+msgid "No tasks(s) available."
+msgstr "No task  disponibili."
+
+#: View/Projects/ajax_view_template_cases.ctp:5 View/Projects/view_template_cases.ctp:29
+msgid "Created Date"
+msgstr "Data di Creazione"
+
+#: View/Projects/ajax_view_template_cases.ctp:44
+msgid "No tasks available"
+msgstr "No task disponibili"
+
+#: View/Projects/groupupdatealerts.ctp:34
+msgid "Cancel Daily Catch-Up"
+msgstr "Annulla  Catch-Up quotidiano"
+
+#: View/Projects/groupupdatealerts.ctp:59
+msgid "Do you want to get daily progress update from your team member(s)?"
+msgstr "Vuoi avere l'aggiornamento giornaliero dei progressi dai membri del tuo team?"
+
+#: View/Projects/groupupdatealerts.ctp:59
+msgid "Just schedule it and sit back, end of the day you will get the update email in your inbox."
+msgstr "Basta programmarlo e sedersi, alla fine della giornata, si otterrà l'e-mail di aggiornamento nella tua casella di posta."
+
+#: View/Projects/groupupdatealerts.ctp:61
+msgid "Get Daily Team updates without nagging them."
+msgstr "Ricevi aggiornamenti del team giornalieri senza dar loro fastidio."
+
+#: View/Projects/groupupdatealerts.ctp:62
+msgid "Get Daily Progress from your team mates in a single email"
+msgstr "Ottieni quotidiano progresso dal tuo team in una sola e-mail"
+
+#: View/Projects/groupupdatealerts.ctp:63
+msgid "You have a distributed team, every tasks can not be captured, you just want your team send daily update, just set it here and sit back."
+msgstr "Si dispone di un team distribuito, ogni attività non può essere catturata, vuoi solo che il tuo team mandi un update giornaliero, basta impostare ciò qui e sedersi."
+
+#: View/Projects/groupupdatealerts.ctp:64
+msgid "Automate daily updates from your team."
+msgstr "Automatizzare aggiornamenti quotidiani dal vostro team."
+
+#: View/Projects/importexport.ctp:6 View/Projects/onbording.ctp:113 View/Users/getting_started.ctp:59
+msgid "Import Task"
+msgstr "Import Task"
+
+#: View/Projects/importexport.ctp:7
+msgid "Export Task (.csv)"
+msgstr "Export Task (.csv)"
+
+#: View/Projects/importexport.ctp:12
+msgid "Upload File"
+msgstr "Caricare un file"
+
+#: View/Projects/importexport.ctp:13
+msgid "Preview Data"
+msgstr "anteprima dati"
+
+#: View/Projects/importexport.ctp:14;219
+msgid "Upload Summary"
+msgstr "Carica Sommario"
+
+#: View/Projects/importexport.ctp:65
+msgid "Upload your CSV file"
+msgstr "Carica il file CSV"
+
+#: View/Projects/importexport.ctp:68
+msgid "Choose file"
+msgstr "Scegli il file"
+
+#: View/Projects/importexport.ctp:70
+msgid "rows maximum size"
+msgstr "file di dimensione massima"
+
+#: View/Projects/importexport.ctp:77
+msgid "Continue"
+msgstr "proseguire"
+
+#: View/Projects/importexport.ctp:84
+msgid "CSV File"
+msgstr "File CSV"
+
+#: View/Projects/importexport.ctp:86
+msgid "Download the sample file"
+msgstr "Scarica il file di esempio"
+
+#: View/Projects/importexport.ctp:86
+msgid "to see what you can import"
+msgstr "per vedere cosa è possibile importare"
+
+#: View/Projects/importexport.ctp:89
+msgid "mandatory"
+msgstr "obbligatorio"
+
+#: View/Projects/importexport.ctp:90
+msgid "Description of the task"
+msgstr "Descrizione del compito"
+
+#: View/Projects/importexport.ctp:91
+msgid "Due date of Task (mm/dd/yyyy) "
+msgstr "Data di scadenza della Task (gg / mm / aaaa)"
+
+#: View/Projects/importexport.ctp:92
+msgid "Current status of the Task (NEW, In Progress, RESOLVED, CLOSED)"
+msgstr "Stato attuale della Task (NUOVO, In corso, DECISO, CHIUSO)"
+
+#: View/Projects/importexport.ctp:93
+msgid "Task type (Bug, Development, Enhancement, RnD, QA, Unit Testing, Maintenance, Release, Updates, Idea, Others)"
+msgstr "Tipo di attività (Bug, Sviluppo, Miglioramento, RnD, QA, Unit Testing, di manutenzione, di rilascio, aggiornamenti, Idea, Altri)"
+
+#: View/Projects/importexport.ctp:94
+msgid "Email ID of Task Assigned To"
+msgstr "ID e-mail del compito assegnato a"
+
+#: View/Projects/importexport.ctp:97
+msgid "Help"
+msgstr "Aiuto"
+
+#: View/Projects/importexport.ctp:99
+msgid "Choose a project to Import Task"
+msgstr "Scegli un progetto da importare Task"
+
+#: View/Projects/importexport.ctp:100
+msgid "Upload the valid CSV file with your Tasks"
+msgstr "Carica il file CSV valido con i tuoi compiti"
+
+#: View/Projects/importexport.ctp:101
+msgid "First system will prompt a preview of all the data in the file"
+msgstr "Primo sistema richiederà l'anteprima di tutti i dati nel file"
+
+#: View/Projects/importexport.ctp:102
+msgid "In preview you can validate your data"
+msgstr "In anteprima è possibile convalidare i dati"
+
+#: View/Projects/importexport.ctp:103
+msgid "Confirm the data in the preview and Import them to the system"
+msgstr "Confermare i dati nell'anteprima e importarli sul sistema"
+
+#: View/Projects/importexport.ctp:104
+msgid "All the Tasks will be posted to the selected Project."
+msgstr "Tutte le task saranno affisse al progetto selezionato."
+
+#: View/Projects/importexport.ctp:126
+msgid "Tasks to Import"
+msgstr "task da importare"
+
+#: View/Projects/importexport.ctp:129
+msgid "Please double-check the below points before importing your Tasks"
+msgstr "Si prega di ricontrollare i seguenti punti prima di importare i vostri task"
+
+#: View/Projects/importexport.ctp:131
+msgid "Blank Title"
+msgstr "Titolo blank "
+
+#: View/Projects/importexport.ctp:132
+msgid "Invalid Due Date (should be <b>MM</b>/<b>DD</b>/<b>YYYY</b>)"
+msgstr "Scadenza non valida (dovrebbe essere <b> MM </ b> / <b> DD </ b> / <b> AAAA </ b>)"
+
+#: View/Projects/importexport.ctp:133
+msgid "Invalid or Misspelled Status"
+msgstr "Stato non valido o errato"
+
+#: View/Projects/importexport.ctp:134
+msgid "Invalid or Misspelled Type"
+msgstr "Tipo non valido o errato"
+
+#: View/Projects/importexport.ctp:135
+msgid "Unknown Assigned To Email ID (User must be associated with the project)"
+msgstr "Sconosciuto Assegnato a id-mail (l'utente deve essere associato con il progetto)"
+
+#: View/Projects/importexport.ctp:139
+msgid "Confirm & Import"
+msgstr "Confermare & Importare"
+
+#: View/Projects/importexport.ctp:225
+msgid "Input CSV file"
+msgstr "input file CSV"
+
+#: View/Projects/importexport.ctp:228
+msgid "Total data"
+msgstr "totale  dati"
+
+#: View/Projects/importexport.ctp:228;231
+msgid "rows"
+msgstr "righe"
+
+#: View/Projects/importexport.ctp:231
+msgid "Valid data"
+msgstr "dati validi"
+
+#: View/Projects/importexport.ctp:234
+msgid "Task(s) Imported into project"
+msgstr "Task importato nel progetto"
+
+#: View/Projects/importexport.ctp:296
+msgid "Please upload a valid csv file"
+msgstr "Si prega di caricare un file CSV valido"
+
+#: View/Projects/importexport.ctp:311
+msgid "Export milestone to CSV"
+msgstr "Esporta milestone in formato CSV"
+
+#: View/Projects/importexport.ctp:348
+msgid "Please select atleast one checkbox to export the milestone tasks to csv"
+msgstr "Si prega di selezionare almeno uno casella di controllo per esportare le  milestone task per csv"
+
+#: View/Projects/manage.ctp:37;39
+msgid "Inactive"
+msgstr "Inattivo"
+
+#: View/Projects/manage.ctp:59
+msgid "You have not created any project yet"
+msgstr "Non hai ancora creato un progetto"
+
+#: View/Projects/manage.ctp:59
+msgid "No projects found."
+msgstr "Nessun progetto trovato."
+
+#: View/Projects/manage.ctp:104 View/Templates/tasks.ctp:105 View/Users/manage.ctp:140;166
+msgid "Disable"
+msgstr "disabilitare"
+
+#: View/Projects/manage.ctp:111 View/Templates/tasks.ctp:107 View/Users/manage.ctp:125;134
+msgid "Enable"
+msgstr "consentire"
+
+#: View/Projects/manage.ctp:153
+msgid "User(s)"
+msgstr "Use"
+
+#: View/Projects/manage.ctp:157
+msgid "Task(s)"
+msgstr "Compiti)"
+
+#: View/Projects/manage.ctp:171
+msgid "Storage"
+msgstr "Conservazione"
+
+#: View/Projects/manage.ctp:186 View/Projects/project_members.ctp:54 View/Report/hours_linechart.ctp:26
+msgid "Hour(s)"
+msgstr "Ore"
+
+#: View/Projects/onbording.ctp:37 View/Projects/onbording_createproject.ctp:24
+msgid "Welcome"
+msgstr "benvenuto"
+
+#: View/Projects/onbording.ctp:37 View/Projects/onbording_createproject.ctp:24
+msgid "Get started with your Orangescrum account"
+msgstr "Inizia con il tuo account Orangescrum"
+
+#: View/Projects/onbording.ctp:38 View/Projects/onbording_createproject.ctp:25
+msgid "You're just 3 simple steps away from exploring Orangescrum!"
+msgstr "Sei solo 3 semplici passi di distanza dall'esplorare Orangescrum!"
+
+#: View/Projects/onbording.ctp:54 View/Projects/onbording_createproject.ctp:41 View/Users/getting_started.ctp:14
+msgid "Create and Assign Project"
+msgstr "Creare e assegnare Progetto"
+
+#: View/Projects/onbording.ctp:57 View/Projects/onbording_createproject.ctp:44
+msgid "Name your project suitably and select a matching short name."
+msgstr "Assegnare un nome al progetto, opportunamente e selezionare un nome breve corrispondente."
+
+#: View/Projects/onbording.ctp:58 View/Projects/onbording_createproject.ctp:45
+msgid "You as an admin will be automatically assigned the project created above"
+msgstr "come  admin ti verrà automaticamente assegnato il progetto creato in precedenza"
+
+#: View/Projects/onbording.ctp:76 View/Projects/onbording_createproject.ctp:64
+msgid "Send invitation to co-workers for the project"
+msgstr "Invia invito a collaboratori per il progetto"
+
+#: View/Projects/onbording.ctp:77 View/Projects/onbording_createproject.ctp:65
+msgid "Users need to setup their account by using the invitation email"
+msgstr "Gli utenti hanno bisogno di impostare il proprio account utilizzando l'email di invito"
+
+#: View/Projects/onbording.ctp:78 View/Projects/onbording_createproject.ctp:66
+msgid "Then, Admin can add them up to the project"
+msgstr "Poi, Admin li può aggiungere  al progetto"
+
+#: View/Projects/onbording.ctp:119 View/Projects/onbording_createproject.ctp:85
+msgid "You can create task under a project"
+msgstr "È possibile creare un task sotto un progetto"
+
+#: View/Projects/onbording.ctp:120 View/Projects/onbording_createproject.ctp:86
+msgid "Select title, put due date, set priority"
+msgstr "Seleziona titolo, data di scadenza , impostare la priorità"
+
+#: View/Projects/onbording.ctp:121 View/Projects/onbording_createproject.ctp:87
+msgid "Assign the task to resource"
+msgstr "Assegnare il task a risorse"
+
+#: View/Projects/onbording.ctp:133 View/Projects/onbording_createproject.ctp:99
+msgid "of 3 Steps Completed"
+msgstr "di 3 passaggi completati"
+
+#: View/Projects/onbording.ctp:137 View/Projects/onbording_createproject.ctp:103
+msgid "Create your first project, and get started"
+msgstr "Crea il tuo primo progetto, e per iniziare"
+
+#: View/Projects/onbording.ctp:143 View/Projects/onbording_createproject.ctp:109
+msgid "Looks like it's just you in here"
+msgstr "Sembra che ci sia solo tu qui"
+
+#: View/Projects/onbording.ctp:144 View/Projects/onbording_createproject.ctp:110
+msgid "works best when you add your Co-workers."
+msgstr "funziona meglio quando si aggiungono i tuoi colleghi."
+
+#: View/Projects/onbording.ctp:161 View/Projects/onbording_createproject.ctp:116
+msgid "Final step, Create Task and assign, Boom!"
+msgstr "Passo finale, Crea Task e assegnale, Boom!"
+
+#: View/Projects/onbording.ctp:167 View/Projects/onbording_createproject.ctp:122
+msgid "Wow! You have completed all the basics of"
+msgstr "Wow! Hai completato tutte le nozioni di base"
+
+#: View/Projects/onbording.ctp:168 View/Projects/onbording_createproject.ctp:123
+msgid "Now you can get started with"
+msgstr "Ora si può iniziare con"
+
+#: View/Projects/onbording.ctp:170 View/Projects/onbording_createproject.ctp:125
+msgid "This page will automatically redirect to dashboard within"
+msgstr "Questa pagina reindirizzerà automaticamente alla dashboard all'interno"
+
+#: View/Projects/onbording.ctp:171 View/Projects/onbording_createproject.ctp:126
+msgid "Click here"
+msgstr "Clicca qui"
+
+#: View/Projects/onbording.ctp:171
+msgid "to Redirect to the task page."
+msgstr "per essere reindirizzato alla pagina dei task."
+
+#: View/Projects/onbording.ctp:178
+msgid "Create your Custom Task Type"
+msgstr "Crea il tuo tipo di Task personalizzato"
+
+#: View/Projects/onbording.ctp:226 View/Projects/onbording_createproject.ctp:177
+msgid "Loading users"
+msgstr "Caricamento utenti "
+
+#: View/Projects/onbording.ctp:248
+msgid "Or"
+msgstr "O"
+
+#: View/Projects/onbording_createproject.ctp:126
+msgid "to Redirect to the dashboard page."
+msgstr "di reindirizzamento alla pagina dashboard."
+
+#: View/Projects/project_members.ctp:48
+msgid "Alert Time"
+msgstr "Allerta Tempo"
+
+#: View/Projects/project_members.ctp:55
+msgid "Minute(s)"
+msgstr "Minuti"
+
+#: View/Projects/project_members.ctp:73
+msgid "Timezone"
+msgstr "Fuso orario"
+
+#: View/Projects/project_members.ctp:86
+msgid "Frequency"
+msgstr "Frequenza"
+
+#: View/Projects/project_members.ctp:89
+msgid "5 days in week"
+msgstr "5 giorni a settimana"
+
+#: View/Projects/project_members.ctp:90
+msgid "6 days in week"
+msgstr "6 giorni a settimana"
+
+#: View/Projects/project_members.ctp:91
+msgid "7 days in week"
+msgstr "7 giorni a settimana"
+
+#: View/Projects/task_type.ctp:8
+msgid "12 default Task Types listed and the #of Tasks associated with them. You can remove any of them by unchecking the checkbox and save the changes."
+msgstr "12 Tipi  di default  task  elencati e i task associati con loro. È possibile rimuovere uno di essi deselezionando la casella di controllo e salvando le modifiche."
+
+#: View/Projects/task_type.ctp:8
+msgid "Click on the"
+msgstr "Clicca sul"
+
+#: View/Projects/task_type.ctp:8
+msgid "and add your new Task Types."
+msgstr "e aggiungere i nuovi tipi di attività."
+
+#: View/Projects/task_type.ctp:50 View/Users/getting_started.ctp:75;79
+msgid "Custom Task Type"
+msgstr "Tipo Task Personalizzato"
+
+#: View/Projects/task_type.ctp:53
+msgid "Default Task Type"
+msgstr "Tipo di Task di Default"
+
+#: View/Projects/task_type.ctp:74
+msgid " Task(s)"
+msgstr "Compiti"
+
+#: View/Projects/task_type.ctp:127
+msgid "Task Types are independent of Projects, but please create a Project to get started."
+msgstr "Tipi di task sono indipendenti dai progetti, ma si prega di creare un progetto per iniziare."
+
+#: View/Projects/user_listing.ctp:16 View/Users/project_listing.ctp:14
+msgid "Email Notification"
+msgstr "notifica per email"
+
+#: View/Projects/user_listing.ctp:65;146 View/Users/manage.ctp:34;36;220;223;236
+msgid "Invited"
+msgstr "Invitato"
+
+#: View/Projects/user_listing.ctp:79;84 View/Users/project_listing.ctp:45;50
+msgid "OFF"
+msgstr "OFF"
+
+#: View/Projects/user_listing.ctp:80;85 View/Users/project_listing.ctp:46;51
+msgid "ON"
+msgstr "SOPRA"
+
+#: View/Projects/user_listing.ctp:117 View/Templates/tasks.ctp:80 View/Users/manage.ctp:41;43
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: View/Projects/user_listing.ctp:159
+msgid "No users assigned"
+msgstr "Nessun utente assegnati"
+
+#: View/Projects/view_template_cases.ctp:79
+msgid "No data available"
+msgstr "Nessun dato disponibile"
+
+#: View/Report/bug_glide.ctp:118
+msgid "Bug Count"
+msgstr "conteggio dei bug"
+
+#: View/Report/bug_linechart.ctp:60
+msgid "Bugs"
+msgstr "bugs"
+
+#: View/Report/bug_linechart.ctp:69
+msgid "Day(s)"
+msgstr "Giorni"
+
+#: View/Report/bug_pichart.ctp:105
+msgid "Bug Report"
+msgstr "Riportare Bug"
+
+#: View/Report/bug_statistics.ctp:2
+msgid "Bugs created."
+msgstr "Bug creato."
+
+#: View/Report/bug_statistics.ctp:6
+msgid "Avg. days to Resolve a Bug"
+msgstr "AVG. giorni per risolvere un bug"
+
+#: View/Report/bug_statistics.ctp:7
+msgid "Avg. days to Close a Bug"
+msgstr "AVG. giorni per chiudere un bug"
+
+#: View/Report/bug_statistics.ctp:8
+msgid "Hours spent on these Bugs"
+msgstr "Ore passate su questi bug"
+
+#: View/Report/bug_statistics.ctp:12 View/Report/tasks_statistics.ctp:14
+msgid "No data for this date range & project."
+msgstr "Non ci sono dati per questo intervallo di date e di progetto."
+
+#: View/Report/chart.ctp:5 View/Report/glide_chart.ctp:6
+msgid "Not enough Analytics data!"
+msgstr "Non abbastanza dati di analisi!"
+
+#: View/Report/chart.ctp:15
+msgid "Task Type - Pie Chart"
+msgstr "Task Type - grafico a torta"
+
+#: View/Report/chart.ctp:17
+msgid "Loading task type pie chart"
+msgstr "Caricamento grafico a torta tipo di task"
+
+#: View/Report/chart.ctp:21
+msgid "Task Type Statistics"
+msgstr "Task Type Statistics"
+
+#: View/Report/chart.ctp:23 View/Report/glide_chart.ctp:24
+msgid "Loading Statistics"
+msgstr "Caricamento statistiche"
+
+#: View/Report/chart.ctp:28
+msgid "Task Trend Chart"
+msgstr "Tracciato delle tendenze Task "
+
+#: View/Report/chart.ctp:30
+msgid "Loading task trend chart"
+msgstr " Caricamento Grafico tendenza Task "
+
+#: View/Report/glide_chart.ctp:16
+msgid "Bug Status Pie Chart"
+msgstr "grafico a torta dello stato dei bug"
+
+#: View/Report/glide_chart.ctp:18
+msgid "Loading bug status pie chart"
+msgstr "grafico a torta dello stato di caricamento dei bug"
+
+#: View/Report/glide_chart.ctp:22
+msgid "Bug Statistics"
+msgstr "Statistiche bug "
+
+#: View/Report/glide_chart.ctp:29
+msgid "Bugs Life Cycle - Line Chart"
+msgstr "Bugs Life Cycle - Grafico a linee"
+
+#: View/Report/glide_chart.ctp:31
+msgid "Loading bug life cycle line chart"
+msgstr "grafico a linee del caricamento del bus life cycle"
+
+#: View/Report/glide_chart.ctp:36
+msgid "Bug Glide Path Chart"
+msgstr "Bug Glide Path Grafico"
+
+#: View/Report/glide_chart.ctp:38
+msgid "Loading bug glide path chart"
+msgstr "Caricamento grafico bug  glide path"
+
+#: View/Report/hours_gridview.ctp:11 View/Report/tlg_hours_gridview.ctp:11
+msgid "Replies"
+msgstr "risposte"
+
+#: View/Report/hours_gridview.ctp:48 View/Report/tlg_hours_gridview.ctp:55
+msgid "No Results Found"
+msgstr "Nessun risultato trovato"
+
+#: View/Report/hours_linechart.ctp:35
+msgid "hour"
+msgstr "ora"
+
+#: View/Report/hours_piechart.ctp:17
+msgid "Total Hours"
+msgstr "Ore totali"
+
+#: View/Report/hours_piechart.ctp:41
+msgid "Hours Report"
+msgstr "Rapporto ore "
+
+#: View/Report/hours_report.ctp:14
+msgid "Hours Spent on Task Type - Pie Chart"
+msgstr "Ore passate su Task Type - Grafico a torta"
+
+#: View/Report/hours_report.ctp:16
+msgid "Loading Pie Chart"
+msgstr "Caricamento grafico a torta"
+
+#: View/Report/hours_report.ctp:20;30
+msgid "Hours Spent by All"
+msgstr "Ore trascorse da Tutti"
+
+#: View/Report/hours_report.ctp:23
+msgid "Loading Grid view"
+msgstr "Caricamento vista Griglia"
+
+#: View/Report/hours_report.ctp:33
+msgid "Loading Line Chart"
+msgstr "Caricamento Grafico  Linea"
+
+#: View/Report/tasks_pichart.ctp:26
+msgid "Total # of Tasks"
+msgstr "Totale di # di Task"
+
+#: View/Report/tasks_pichart.ctp:50
+msgid "# of Tasks"
+msgstr "# Dei task"
+
+#: View/Report/tasks_statistics.ctp:2
+msgid "Tasks created."
+msgstr "Task creati."
+
+#: View/Report/tasks_statistics.ctp:7
+msgid "Avg. days to Resolve a Task"
+msgstr "AVG. giorni per risolvere un Task"
+
+#: View/Report/tasks_statistics.ctp:9
+msgid "Avg. days to Close a Task"
+msgstr "AVG. giorni di tempo per chiudere un Task"
+
+#: View/Report/tasks_statistics.ctp:10
+msgid "Hours spent on these Tasks"
+msgstr "Ore impiegate per questi task"
+
+#: View/Report/tasks_trend.ctp:35
+msgid "Tasks Count"
+msgstr "conteggio dei task"
+
+#: View/Report/weeklyhours_report.ctp:84
+msgid "No Data for this week"
+msgstr "Nessun dato  per questa settimana"
+
+#: View/Templates/tasks.ctp:34
+msgid "Create Task Template"
+msgstr "Crea attività Template"
+
+#: View/Templates/tasks.ctp:71
+msgid "Default Template"
+msgstr "modello predefinito"
+
+#: View/Users/activity_pichart.ctp:52
+msgid "# of Tasks Report"
+msgstr "# Di  rapporto di task"
+
+#: View/Users/add_project.ctp:49
+msgid "No project(s) available."
+msgstr "Nessun progetto disponibile."
+
+#: View/Users/add_project.ctp:62
+msgid "Assigned Project(s)"
+msgstr "Progetto assegnato "
+
+#: View/Users/add_project.ctp:91
+msgid "No project(s) assigned."
+msgstr "Nessun progetto  assegnato."
+
+#: View/Users/ajax_overdue.ctp:1
+msgid "OVERDUE TASKS"
+msgstr "Le attività scadute"
+
+#: View/Users/ajax_overdue.ctp:17 View/Users/ajax_upcoming.ctp:18
+msgid "years"
+msgstr "anni"
+
+#: View/Users/ajax_overdue.ctp:20 View/Users/ajax_upcoming.ctp:21
+msgid "months"
+msgstr "mesi"
+
+#: View/Users/ajax_overdue.ctp:31 View/Users/ajax_upcoming.ctp:31
+msgid "No tasks"
+msgstr "Nessuna attività"
+
+#: View/Users/ajax_upcoming.ctp:1
+msgid "UPCOMING TASKS"
+msgstr "COMPITI PROSSIMI"
+
+#: View/Users/categorytab.ctp:5
+msgid "Choose which filters to show in your dashboard tabs"
+msgstr "Scegliere quale filtro per mostrare nelle vostre schede della dashboard"
+
+#: View/Users/changepassword.ctp:11
+msgid "Old Password"
+msgstr "vecchia password"
+
+#: View/Users/changepassword.ctp:17
+msgid "New Password"
+msgstr "nuova password"
+
+#: View/Users/changepassword.ctp:28
+msgid "Confirm Password"
+msgstr "conferma password"
+
+#: View/Users/changepassword.ctp:38
+msgid "Change"
+msgstr "Cambiamento"
+
+#: View/Users/changepassword.ctp:53
+msgid "Sorry, this is not available in this version."
+msgstr "Scusate, ma non è disponibile in questa versione."
+
+#: View/Users/email_notifications.ctp:6
+msgid "Send me Email Notification"
+msgstr "Inviami notifica e-mail"
+
+#: View/Users/email_notifications.ctp:14
+msgid "All New Task"
+msgstr "Tutte Nuove task"
+
+#: View/Users/email_notifications.ctp:16
+msgid "Send me All New Task emails"
+msgstr "Inviatemi Tutte le email riguardanti  il Nuovo Task"
+
+#: View/Users/email_notifications.ctp:21
+msgid "All Task Reply & Comment"
+msgstr "Tutte le attività Rispondi & Commenta"
+
+#: View/Users/email_notifications.ctp:28
+msgid "All Task Status Change"
+msgstr "tutti i cambiamenti di stato dei task"
+
+#: View/Users/email_notifications.ctp:30
+msgid "Send me All Status Update emails"
+msgstr "Inviatemi Tutte le email riguardanti aggiornamento di stato"
+
+#: View/Users/email_notifications.ctp:41
+msgid "Show me Notification"
+msgstr "Mostrami Notifica"
+
+#: View/Users/email_notifications.ctp:47
+msgid "Enable Desktop Notification"
+msgstr "Abilita notifica sul desktop"
+
+#: View/Users/email_notifications.ctp:55
+msgid "Browser version supporting Desktop Notification,"
+msgstr "versione del browser supporta le notifiche sul desktop"
+
+#: View/Users/email_notifications.ctp:56
+msgid "Firefox 22 and above"
+msgstr "Firefox 22 e, soprattutto,"
+
+#: View/Users/email_notifications.ctp:57
+msgid "Chrome 32 and above"
+msgstr "Chrome 32 e, soprattutto,"
+
+#: View/Users/email_notifications.ctp:58
+msgid "Above Safari 6 on Mac OSX 10.8+"
+msgstr "Sopra Safari 6 su Mac OSX 10.8+"
+
+#: View/Users/email_reports.ctp:6
+msgid "Send me Email Reports"
+msgstr "Mandami Report Email"
+
+#: View/Users/email_reports.ctp:31
+msgid "Daily"
+msgstr "Quotidiano"
+
+#: View/Users/email_reports.ctp:44
+msgid "Task Due (daily)"
+msgstr "Task dovuto (al giorno)"
+
+#: View/Users/email_reports.ctp:58
+msgid "Daily Update Report"
+msgstr "Report di aggiornamento giornaliero"
+
+#: View/Users/email_reports.ctp:63
+msgid "Send me Email"
+msgstr "Mandarmi una email"
+
+#: View/Users/email_reports.ctp:89
+msgid "Hour"
+msgstr "Ora"
+
+#: View/Users/email_reports.ctp:100
+msgid "Min"
+msgstr "Min"
+
+#: View/Users/email_reports.ctp:112
+msgid "Select Projects"
+msgstr "selezionare i progetti"
+
+#: View/Users/forgotpassword.ctp:28
+msgid "Forgot your password?"
+msgstr "Hai dimenticato la password?"
+
+#: View/Users/forgotpassword.ctp:34
+msgid "To reset your password, type the full email address you use to sign in to your Orangescrum Account."
+msgstr "Per reimpostare la password, digitare l'indirizzo email completo utilizzato per accedere al tuo account Orangescrum."
+
+#: View/Users/forgotpassword.ctp:54;105
+msgid "Submit"
+msgstr "invio"
+
+#: View/Users/forgotpassword.ctp:65
+msgid "After submitting please click on the link sent to your email"
+msgstr "Dopo la presentazione clicca sul link inviato al tuo indirizzo email"
+
+#: View/Users/forgotpassword.ctp:122
+msgid "Your Password is successfully changed."
+msgstr "La password viene cambiata con successo."
+
+#: View/Users/forgotpassword.ctp:128 View/Users/login.ctp:251
+msgid "Login"
+msgstr "Anmeldung"
+
+#: View/Users/forgotpassword.ctp:128
+msgid "with your new pasword"
+msgstr "con la nuova password"
+
+#: View/Users/forgotpassword.ctp:152
+msgid "Please enter your email."
+msgstr "Per favore inserisci la tua mail."
+
+#: View/Users/forgotpassword.ctp:160
+msgid "Invalid 'E-mail' address!"
+msgstr "Indirizzo email non valido!"
+
+#: View/Users/forgotpassword.ctp:261
+msgid "Password cannot be  blank!"
+msgstr "La password non può essere vuota!"
+
+#: View/Users/forgotpassword.ctp:267
+msgid "Password should be between 6-15 characters!"
+msgstr "La password deve essere tra 6-15 caratteri!"
+
+#: View/Users/forgotpassword.ctp:273
+msgid "Re-Type Password cannot be  blank!"
+msgstr "Re-type password non può essere vuoto!"
+
+#: View/Users/forgotpassword.ctp:279
+msgid "Passwords do not match!"
+msgstr "Le passwords non corrispondono!"
+
+#: View/Users/getting_started.ctp:7
+msgid "Getting Started with Orangescrum"
+msgstr "Introduzione a Orangescrum"
+
+#: View/Users/getting_started.ctp:17
+msgid "Name your project suitably, choose short name accordingly."
+msgstr "Assegnare un nome al progetto, opportunamente, scegliere un nome breve di conseguenza."
+
+#: View/Users/getting_started.ctp:20
+msgid "Add up your team members/customers to the project while creating."
+msgstr "Aggiungete i membri del team / clienti al progetto durante la creazione."
+
+#: View/Users/getting_started.ctp:23
+msgid "Alternately, you can add team/customer to a project in ‘Manage Projects’ section."
+msgstr "In alternativa, è possibile aggiungere squadra / cliente di un progetto nella sezione 'Gestione Progetti'."
+
+#: View/Users/getting_started.ctp:38
+msgid "Send invitation to team member (separate by comma for multi Email IDs)"
+msgstr "Invia invito al Team Member (separati da virgola per gli ID di multi-mail)"
+
+#: View/Users/getting_started.ctp:41
+msgid "Invitees need to set up their account using link provided in the email."
+msgstr "Gli invitati hanno bisogno di configurare il proprio account utilizzando il link fornito nell'e-mail."
+
+#: View/Users/getting_started.ctp:44
+msgid "Assign projects to your team members while inviting them."
+msgstr "Assegnare i progetti per i membri del team, mentre vengono invitati."
+
+#: View/Users/getting_started.ctp:47
+msgid "You can assign/remove projects from your team members any time on manage users section."
+msgstr "È possibile assegnare / rimuovere progetti da membri del team in qualsiasi momento sulla gestione sezione utenti."
+
+#: View/Users/getting_started.ctp:62
+msgid "Enter a title, put due date or set priority and create a task under a project."
+msgstr "Inserire un titolo, inserire la data di scadenza o una serie di priorità e creare un'attività nell'ambito di un progetto."
+
+#: View/Users/getting_started.ctp:65
+msgid "Assign task to a team member, attach files from Google Drive or Dropbox while creating a task."
+msgstr "Assegnare compito di un membro del team, allegare file da Google Drive o Dropbox, durante la creazione di un'attività."
+
+#: View/Users/getting_started.ctp:68
+msgid "You can also Import a bunch of tasks from a .CSV file under a project."
+msgstr "È inoltre possibile importare un po 'di compiti da un file .csv nell'ambito di un progetto."
+
+#: View/Users/getting_started.ctp:86
+msgid "You can categorize your Task usign the Task Types."
+msgstr "È possibile classificare il vostro compito usando i tipi di task."
+
+#: View/Users/getting_started.ctp:89
+msgid "It's doesn't matter whether your business is Education or Health Services or Construction, you can define your own Task Type and add Tasks under them"
+msgstr "E non importa se la vostra attività è riguardante l'istruzione o  servizi sanitari o costruzione, è possibile definire il proprio tipo di Task e aggiungere task sotto di loro"
+
+#: View/Users/getting_started.ctp:92
+msgid "You can remove the default Task Type by unchecking the checkbox and save the changes."
+msgstr "È possibile rimuovere il default Task Type deselezionando la casella di controllo e salvando le modifiche."
+
+#: View/Users/getting_started.ctp:100
+msgid "Respond via Email"
+msgstr "Rispondere via e-mail"
+
+#: View/Users/getting_started.ctp:110
+msgid "You can respond to the task Email sent from "
+msgstr "È possibile rispondere alla task e-mail inviata da"
+
+#: View/Users/getting_started.ctp:113
+msgid "Your Email response will be posted on Orangescrum against that task."
+msgstr "La vostra  e-mail di risposta verrà pubblicata sul Orangescrum contro questo task."
+
+#: View/Users/getting_started.ctp:116
+msgid "Respond on a task even on-the-go from your mobile via Email."
+msgstr "Rispondere su un task, anche on-the-go dal cellulare via e-mail."
+
+#: View/Users/getting_started.ctp:125
+msgid "Desktop Notification"
+msgstr "messaggio sul desktop"
+
+#: View/Users/getting_started.ctp:129;176
+msgid "Notification"
+msgstr "Notifica"
+
+#: View/Users/getting_started.ctp:135
+msgid "The Desktop Notification works on heigher versions of most of the browsers."
+msgstr "Il messaggio sul desktop funziona su versioni superiori rispetto della maggior parte dei browser."
+
+#: View/Users/getting_started.ctp:136
+msgid "Firefox 22 and above, Chrome 32 and above, Safari 6 on Mac OSX 10.8+"
+msgstr "Firefox 22 e superiori, Chrome 32 e superiori, Safari 6 su Mac OSX 10.8+"
+
+#: View/Users/getting_started.ctp:139
+msgid "You'll see a pop-up when a new task or reply arrives so you can keep track of your Tasks even when you're not looking at"
+msgstr "Vedrete un pop-up quando una nuova attività o la risposta arriva, in modo da poter tenere traccia delle proprie attività anche quando non stai guardando"
+
+#: View/Users/getting_started.ctp:142
+msgid "Turn the desktop notification On or Off in the"
+msgstr "setta  On o Off  il messaggio sul desktop nel"
+
+#: View/Users/getting_started.ctp:142
+msgid "page."
+msgstr "pagina."
+
+#: View/Users/getting_started.ctp:151
+msgid "Settings"
+msgstr "impostazioni"
+
+#: View/Users/getting_started.ctp:156
+msgid "Setting"
+msgstr "ambiente"
+
+#: View/Users/getting_started.ctp:160
+msgid "Timezone & Profile"
+msgstr "Fuso orario & profilo"
+
+#: View/Users/getting_started.ctp:163
+msgid "Personalize your Orangescrum account by setting up your Profile details and Timezone."
+msgstr "Personalizza il tuo account Orangescrum impostando i dati del profilo e del fuso orario."
+
+#: View/Users/getting_started.ctp:166
+msgid "The Timezone settings help you to keep stay up-to-date while working with a virtual or remote team."
+msgstr "Le impostazioni di fuso orario aiutano a mantenerti aggiornato mentre si lavora con un team virtuale o remoto."
+
+#: View/Users/getting_started.ctp:183
+msgid "The Email Notification is set to \"No\" by default, to get email those email only when selected when task is posted."
+msgstr "La notifica e-mail è impostata su \"No \" per impostazione predefinita, per ottenere quelle e-mail solo quando selezionato task è selezionato."
+
+#: View/Users/getting_started.ctp:186
+msgid "Set to \"Yes\", to get all the Task related Emails from all your assigned projects from Orangescrum."
+msgstr "Impostare a \"Sì \", per ottenere tutte le email Task da tutti i tuoi progetti assegnati da Orangescrum."
+
+#: View/Users/getting_started.ctp:189
+msgid "You can enable or disable Google Chrome Desktop Notification on the \"Notification\" page."
+msgstr "È possibile attivare o disattivare la notifica di Google Chrome Desktop nella pagina \"Notifica \" \\."
+
+#: View/Users/getting_started.ctp:199
+msgid "Reports"
+msgstr "Rapporti"
+
+#: View/Users/getting_started.ctp:206
+msgid "Customize your Email report settings."
+msgstr "Personalizzare le impostazioni dei rapporti e-mail."
+
+#: View/Users/getting_started.ctp:209
+msgid "Select projects and set your daily update settings."
+msgstr "Selezionare i progetti e settare le impostazioni di aggiornamento quotidiano."
+
+#: View/Users/json_activity.ctp:3;5
+msgid "Replied"
+msgstr "risposto"
+
+#: View/Users/json_activity.ctp:8
+msgid "Comment"
+msgstr "Commento"
+
+#: View/Users/json_activity.ctp:9
+msgid "Edited"
+msgstr "Modificato"
+
+#: View/Users/login.ctp:139
+msgid "Welcome to Orangescrum Community Edition v1.6.1"
+msgstr "Benvenuto in Orangescrum Community Edition v1.6.1"
+
+#: View/Users/login.ctp:141
+msgid "Make sure that,"
+msgstr "Assicurati che,"
+
+#: View/Users/login.ctp:143
+msgid "You have write permission (777) to"
+msgstr "Hai il permesso di scrittura (777) su"
+
+#: View/Users/login.ctp:143
+msgid "and"
+msgstr "e"
+
+#: View/Users/login.ctp:143
+msgid "folders"
+msgstr "cartelle"
+
+#: View/Users/login.ctp:147
+msgid "You have provided the details of"
+msgstr "Hai fornito i dettagli di"
+
+#: View/Users/login.ctp:147
+msgid "email sending options in"
+msgstr "opzione per l'invio di email in"
+
+#: View/Users/login.ctp:150
+msgid "You have updated FROM_EMAIL_NOTIFY and SUPPORT_EMAIL in "
+msgstr "Hai aggiornato FROM_EMAIL_NOTIFY e SUPPORT_EMAIL in"
+
+#: View/Users/login.ctp:164
+msgid "How it Works?"
+msgstr "Come funziona?"
+
+#: View/Users/login.ctp:165
+msgid "Help!"
+msgstr "Aiuto!"
+
+#: View/Users/login.ctp:185
+msgid "to "
+msgstr "a"
+
+#: View/Users/login.ctp:189
+msgid "Make sure that, the"
+msgstr "Assicurarsi che la"
+
+#: View/Users/login.ctp:189
+msgid "file is there in the root directory"
+msgstr "il file è nella directory principale"
+
+#: View/Users/login.ctp:201
+msgid "Login to your Account"
+msgstr "Accedi al tuo account"
+
+#: View/Users/login.ctp:205
+msgid "Quick Signup"
+msgstr "Registrazione Veloce"
+
+#: View/Users/login.ctp:230;231
+msgid "Company Name"
+msgstr "Nome della ditta"
+
+#: View/Users/login.ctp:241;242
+msgid "Password"
+msgstr "Password"
+
+#: View/Users/login.ctp:275
+msgid "Remember me"
+msgstr "Ricordati di me"
+
+#: View/Users/login.ctp:277
+msgid "Forgot Password"
+msgstr "Dimenticato la password"
+
+#: View/Users/login.ctp:284
+msgid "By signing up you you agree that you have read, understand, and accept the"
+msgstr "Con la registrazione si è d'accordo di aver letto, compreso, e si accetta il"
+
+#: View/Users/login.ctp:284
+msgid "License"
+msgstr "Licenza"
+
+#: View/Users/login.ctp:286
+msgid "Signup"
+msgstr "Registrazione"
+
+#: View/Users/manage.ctp:87
+msgid "Client"
+msgstr "Client"
+
+#: View/Users/manage.ctp:91
+msgid "Admin/Client"
+msgstr "Admin / Client"
+
+#: View/Users/manage.ctp:121;154
+msgid "Resend"
+msgstr "Inviare di nuovo"
+
+#: View/Users/manage.ctp:125;134
+msgid "Are you sure you want to enable"
+msgstr "Sei sicuro che si desidera attivare"
+
+#: View/Users/manage.ctp:140;166
+msgid "Are you sure you want to disable"
+msgstr "Sei sicuro che si desidera disattivare"
+
+#: View/Users/manage.ctp:145;172
+msgid "Are you sure you want to mark"
+msgstr "Sei sicuro che si desidera contrassegnare"
+
+#: View/Users/manage.ctp:145;172
+msgid "as client"
+msgstr "come Client"
+
+#: View/Users/manage.ctp:145;172
+msgid "Mark Client"
+msgstr "Segna come Client"
+
+#: View/Users/manage.ctp:147;174
+msgid "Are you sure you want to revoke client access from"
+msgstr "Sei sicuro di voler revocare l'accesso client da"
+
+#: View/Users/manage.ctp:147;174
+msgid "Revoke Client"
+msgstr "Revoca client"
+
+#: View/Users/manage.ctp:182
+msgid "Are you sure you want to revoke Admin privilege from"
+msgstr "Sei sicuro di voler revocare il privilegio Admin da"
+
+#: View/Users/manage.ctp:182
+msgid "Revoke Admin"
+msgstr "Revoca Admin"
+
+#: View/Users/manage.ctp:184
+msgid "Are you sure you want to grant Admin privilege to"
+msgstr "Sei sicuro che si desidera concedere il privilegio Admin per"
+
+#: View/Users/manage.ctp:184
+msgid "Grant Admin"
+msgstr "Concessione Admin"
+
+#: View/Users/manage.ctp:225;238
+msgid "No activity yet"
+msgstr "Ancora nessuna attività"
+
+#: View/Users/manage.ctp:291
+msgid "No users found."
+msgstr "Nessun utente trovato."
+
+#: View/Users/manage.ctp:372
+msgid "Sending invitation again"
+msgstr "Nuovo invio dell'invito"
+
+#: View/Users/manage.ctp:378
+msgid "Add New User"
+msgstr "Aggiungi nuovo utente"
+
+#: View/Users/mycompany.ctp:21
+msgid "API Access Token"
+msgstr "Token di accesso alle API"
+
+#: View/Users/mycompany.ctp:33
+msgid "Logo"
+msgstr "Logo"
+
+#: View/Users/mycompany.ctp:65 View/Users/profile.ctp:87
+msgid "Are you sure you want to delete"
+msgstr "Sei sicuro di voler eliminare"
+
+#: View/Users/mycompany.ctp:77
+msgid "Choose Company Logo"
+msgstr "Scegli il Logo della Società"
+
+#: View/Users/mycompany.ctp:151
+msgid "Are you sure to delete logo"
+msgstr "Sei sicuro di voler eliminare il logo"
+
+#: View/Users/profile.ctp:31
+msgid "Time Zone"
+msgstr "Fuso orario"
+
+#: View/Users/profile.ctp:82
+msgid "Edit Profile Image"
+msgstr "Modifica Immagine del Profilo"
+
+#: View/Users/profile.ctp:86
+msgid "Delete Profile Image"
+msgstr "Elimina Immagine del Profilo"
+
+#: View/Users/profile.ctp:97
+msgid "Choose Profile Image"
+msgstr "Scegli Immagine del Profilo"
+
+#: View/Users/profile.ctp:107
+msgid "Keep me upto date with new features"
+msgstr "Tienimi aggiornato con nuove funzionalità"
+
+#: View/Users/project_listing.ctp:63
+msgid "No project(s) assigned"
+msgstr "Nessun progetto(i) assegnato"
+
+#: Model/DemoRequest.php:validation for field name;validation message;validation email
+msgid "notEmpty"
+msgstr "non vuoto"
+
+#: Model/DemoRequest.php:validation for field email
+msgid "email"
+msgstr "E-Mail"
